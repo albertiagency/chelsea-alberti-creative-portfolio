@@ -57,7 +57,7 @@ export default function Work() {
             Selected Work
           </h1>
           <p className="text-lg font-body text-muted-foreground mt-6 leading-relaxed">
-            Brand identities and marketing for growing businesses. Apps and platforms I've built from concept to launch. Consumer products developed from start to shelf. Campaign production and creative direction for commercial shoots. Social content across platforms. I take ideas from concept to finished — whatever form they take.
+            I work across brand identity and marketing, apps and digital platforms, product development, creative production, and social content. Whether it's building a brand system from scratch, designing and launching an app, developing a consumer product concept, directing a commercial shoot, or shaping a company's visual voice — I take ideas from concept through finished execution.
           </p>
         </motion.div>
 

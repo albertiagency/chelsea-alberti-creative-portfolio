@@ -79,9 +79,9 @@ export const projectData = {
     {
       id: 'magic-rescue-stick',
       title: 'Magic Rescue Stick',
-      description: 'Consumer product development soup to nuts — manufacturer sourcing, sampling rounds, custom packaging design, and brand identity.',
-      fullDescription: 'Led the complete development cycle for Magic Rescue Stick. Found and vetted manufacturers, managed multiple sampling rounds, designed custom packaging, and built the brand identity from logo to visual direction. Took the concept from a raw idea to a shelf-ready product.',
-      deliverables: 'Manufacturer sourcing, sampling oversight, packaging design, brand identity, visual direction',
+      description: 'Consumer product development — manufacturer sourcing, sampling, custom packaging, and brand identity.',
+      fullDescription: 'Led the complete development cycle for Magic Rescue Stick from concept to production-ready. Found and vetted manufacturers, managed sampling rounds, designed custom packaging, and developed the brand identity and visual direction.',
+      deliverables: 'Manufacturer sourcing, sampling management, packaging design, brand identity, visual direction',
       category: 'Product Development',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3db7847f2_18D409F9-19FD-4852-A9D8-FF871EDBEF43.png',
@@ -91,9 +91,9 @@ export const projectData = {
     {
       id: 'elemental-accents',
       title: 'Elemental Accents',
-      description: 'Home décor product line — concept development, sourcing, custom packaging, brand identity, and product styling.',
-      fullDescription: 'Developed Elemental Accents, a minimal home décor product line, from concept through delivery. Managed sourcing, oversaw sampling, designed packaging, built the brand identity, and styled the product for launch photography. Created a premium brand experience from first touch to unboxing.',
-      deliverables: 'Product concept, sourcing, packaging design, brand identity, product styling',
+      description: 'Home décor product development — concept, sourcing, custom packaging, brand identity, and product styling.',
+      fullDescription: 'Developed a minimal home décor product line from concept through production. Managed sourcing, oversaw sampling rounds, designed custom packaging, built the brand identity, and styled the products for photography. Previously sold on Amazon.',
+      deliverables: 'Product concept, sourcing, sampling, packaging design, brand identity, product styling',
       category: 'Product Development',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e3809c73e_IMG_6136.jpg',
