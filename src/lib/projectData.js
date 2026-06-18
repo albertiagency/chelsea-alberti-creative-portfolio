@@ -20,7 +20,7 @@ export const projectData = {
       deliverables: 'Logo, brand identity, website design, digital marketing materials',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0df594341_08015462-65EF-4B92-AD36-7DD563A0D129.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8ca35cba7_Truck_Placement.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/fd338b3be_Screenshot2026-06-18at13004PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
       ],
