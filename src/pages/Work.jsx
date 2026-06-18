@@ -21,16 +21,16 @@ export default function Work() {
       projects: projectData.appsDigital,
     },
     {
-      label: 'Product Development',
-      title: 'Product Development',
-      description: 'Consumer products developed from concept through manufacturer sourcing, sampling, custom packaging, and brand identity.',
-      projects: projectData.productDevelopment,
-    },
-    {
       label: 'Creative Production',
       title: 'Visual Campaigns & Creative Production',
       description: 'Commercial shoots and visual campaigns for e-commerce, fashion, and lifestyle brands — from shoot logistics and crew coordination through creative direction and final delivery.',
       projects: projectData.creativeProduction,
+    },
+    {
+      label: 'Product Development',
+      title: 'Product Development',
+      description: 'Consumer products developed from concept through manufacturer sourcing, sampling, custom packaging, and brand identity.',
+      projects: projectData.productDevelopment,
     },
     {
       label: 'Social Content',
