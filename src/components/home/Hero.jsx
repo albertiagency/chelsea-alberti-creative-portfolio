@@ -137,30 +137,9 @@ export default function Hero() {
           />
           {/* Fade on left edge to blend */}
           <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-background to-transparent" />
-          {/* Subtle overlay */}
-          <div className="absolute inset-0 bg-foreground/5" />
         </div>
 
-        {/* Floating stat cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.9 }}
-          className="absolute bottom-16 left-8 bg-background/95 backdrop-blur-sm border border-border rounded-sm px-5 py-4 shadow-lg"
-        >
-          <p className="text-2xl font-display font-bold text-foreground">7+</p>
-          <p className="text-xs font-body text-muted-foreground mt-0.5">Years in Creative Production</p>
-        </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1.05 }}
-          className="absolute top-1/3 right-8 bg-accent text-accent-foreground rounded-sm px-5 py-4 shadow-lg"
-        >
-          <p className="text-2xl font-display font-bold">10+</p>
-          <p className="text-xs font-body mt-0.5 opacity-90">Brands Launched</p>
-        </motion.div>
       </motion.div>
     </section>
   );
