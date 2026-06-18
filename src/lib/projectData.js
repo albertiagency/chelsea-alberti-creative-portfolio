@@ -122,7 +122,12 @@ export const projectData = {
       deliverables: 'Shoot logistics, talent & crew coordination, on-set production management, campaign imagery delivery',
       category: 'Creative Production',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b8630e857_generated_26f933b9.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c681a40fd_Screenshot2025-02-24at120219PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d16066000_Screenshot2025-02-24at63608PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0c7ca6883_Screenshot2025-02-24at65340PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/26a6b692b_Screenshot2025-02-24at63514PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/30bddf6df_Screenshot2025-02-24at65404PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2bb87765e_Screenshot2025-02-24at65332PM.png',
       ],
     },
     {
