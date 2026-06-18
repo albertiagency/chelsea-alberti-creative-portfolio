@@ -113,10 +113,10 @@ export const projectData = {
       ],
     },
     {
-      id: 'saffron-everyday',
-      title: 'Saffron Everyday',
+      id: 'safran-everyday',
+      title: 'Safran Everyday',
       description: 'Campaign shoot production for a women\'s lifestyle brand — shoot logistics, talent coordination, and on-set production management.',
-      fullDescription: 'Managed campaign shoot production for Saffron Everyday. Oversaw shoot logistics, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s warm, editorial aesthetic.',
+      fullDescription: 'Managed campaign shoot production for Safran Everyday. Oversaw shoot logistics, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s warm, editorial aesthetic.',
       deliverables: 'Shoot logistics, talent & crew coordination, on-set production management, campaign imagery delivery',
       category: 'Creative Production',
       images: [
