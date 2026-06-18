@@ -32,6 +32,12 @@ export default function Work() {
       description: 'Commercial shoots and visual campaigns for e-commerce, fashion, and lifestyle brands — from shoot logistics and crew coordination through creative direction and final delivery.',
       projects: projectData.creativeProduction,
     },
+    {
+      label: 'Social Content',
+      title: 'Social Content',
+      description: 'Social content examples across platforms — campaigns, organic posts, and branded content.',
+      projects: projectData.socialContent,
+    },
   ];
 
   return (

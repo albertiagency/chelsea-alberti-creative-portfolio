@@ -13,18 +13,6 @@ export const projectData = {
       ],
     },
     {
-      id: 'saffran-everyday',
-      title: 'Saffran Everyday',
-      description: 'Brand positioning, shoot production, and marketing materials for an emerging lifestyle brand. Visual identity and campaign assets developed from scratch.',
-      fullDescription: 'Developed brand positioning, visual identity, and marketing collateral for Saffran Everyday, an emerging lifestyle brand. Created a cohesive brand story and translated it into print and digital assets. Also led shoot production and creative direction for the brand\'s product and lifestyle imagery.',
-      deliverables: 'Brand strategy, visual identity, shoot production, creative direction, print + digital marketing materials',
-      category: 'Brand & Marketing',
-      images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/67d5a4761_generated_1d72d942.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6afe33e2c_generated_9e283ca3.png',
-      ],
-    },
-    {
       id: 'the-window-boys',
       title: 'The Window Boys',
       description: 'Brand identity, digital marketing materials, and web presence for a home services company. Designed for credibility and local reach.',
@@ -132,7 +120,7 @@ export const projectData = {
       deliverables: 'Shoot logistics, crew & talent coordination, on-set production management, campaign delivery',
       category: 'Creative Production',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/729016485_generated_a15b092e.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b8630e857_generated_26f933b9.png',
       ],
     },
@@ -148,15 +136,16 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6afe33e2c_generated_9e283ca3.png',
       ],
     },
+  ],
+  socialContent: [
     {
-      id: 'saffran-shoot',
-      title: 'Saffran Everyday — Campaign',
-      description: 'Product and lifestyle shoot production for a wellness brand — creative direction, styling, and shoot coordination from concept to delivery.',
-      fullDescription: 'Led shoot production and creative direction for Saffran Everyday. Developed the shoot concept, coordinated styling and location, managed on-set logistics, and oversaw delivery of final visual assets. Created a cohesive visual story aligned with the brand\'s warm, minimal aesthetic.',
-      deliverables: 'Creative direction, shoot production, styling coordination, final asset delivery',
-      category: 'Creative Production',
+      id: 'social-example-1',
+      title: 'Social Content',
+      description: 'Social content examples — upload your images here.',
+      fullDescription: 'Social content examples.',
+      deliverables: 'Social content',
+      category: 'Social Content',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6afe33e2c_generated_9e283ca3.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/729016485_generated_a15b092e.png',
       ],
     },
@@ -168,6 +157,7 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
+  ...projectData.socialContent,
 ];
 
 export const featuredProjects = [
