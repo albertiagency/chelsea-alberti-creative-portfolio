@@ -122,6 +122,7 @@ export const projectData = {
       deliverables: 'Shoot logistics, talent & crew coordination, on-set production management, campaign imagery delivery',
       category: 'Creative Production',
       images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/528296507_Screenshot2026-06-18at15113PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f3fb1e09d_Screenshot2025-02-24at63542PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c681a40fd_Screenshot2025-02-24at120219PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d16066000_Screenshot2025-02-24at63608PM.png',
@@ -152,6 +153,17 @@ export const projectData = {
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d9f3588b7_Screenshot2025-03-01at95020PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5978c0654_Screenshot2025-03-01at94809PM.png',
+      ],
+    },
+    {
+      id: 'nulastin',
+      title: 'Nulastin',
+      description: 'Video production for a premium beauty brand — shoot logistics, crew coordination, and on-set production management.',
+      fullDescription: 'Managed video production for Nulastin, a premium beauty and skincare brand. Oversaw shoot logistics, crew coordination, and on-set production to deliver polished video content for the brand\'s marketing campaigns.',
+      deliverables: 'Video production, shoot logistics, crew coordination, on-set production management',
+      category: 'Creative Production',
+      images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/528296507_Screenshot2026-06-18at15113PM.png',
       ],
     },
     {
