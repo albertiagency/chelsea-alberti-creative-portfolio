@@ -57,7 +57,7 @@ export default function Work() {
             Selected Work
           </h1>
           <p className="text-lg font-body text-muted-foreground mt-6 leading-relaxed">
-            From brand identities to product launches to digital platforms, I take ideas from concept to finished — whatever form they take. A selection of professional and independent projects below.
+            Brand identities and marketing for growing businesses. Apps and platforms I've built from concept to launch. Consumer products developed from start to shelf. Campaign production and creative direction for commercial shoots. Social content across platforms. I take ideas from concept to finished — whatever form they take.
           </p>
         </motion.div>
 
