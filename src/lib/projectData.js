@@ -27,20 +27,20 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
       ],
     },
-  ],
-  appsDigital: [
     {
       id: 'toscana-salon',
       title: 'Toscana Salon',
       description: 'Website design and build for a boutique hair salon with a focus on owner story, spa chair rental recruitment, and social media content strategy. Currently in progress.',
       fullDescription: 'Building an online presence for Toscana Salon that goes beyond aesthetics. The website tells the owner\'s story, showcases the salon\'s unique approach, and drives recruitment for spa rental chair operators. Complemented by a comprehensive social media content strategy to build community and attract both clients and chair renters.',
       deliverables: 'Website design & build, brand narrative, recruitment campaign strategy, social media content planning and creation',
-      category: 'Apps & Web',
+      category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7cd56024a_generated_image.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2828ba22a_Screenshot2026-06-18at22422PM.png',
       ],
     },
+  ],
+  appsDigital: [
     {
       id: 'myco',
       title: 'MyCo',
