@@ -132,6 +132,17 @@ export const projectData = {
       ],
     },
     {
+      id: 'pcna',
+      title: 'PCNA',
+      description: 'Campaign shoot production for a promotional products brand — product styling, shoot logistics, and on-set production management.',
+      fullDescription: 'Managed campaign shoot production for PCNA, a leading promotional products company. Oversaw product styling, shoot logistics, and on-set production to deliver catalog and marketing imagery across their product lines.',
+      deliverables: 'Product styling, shoot logistics, on-set production management, campaign imagery delivery',
+      category: 'Creative Production',
+      images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/676e27d64_Screenshot2025-03-03at34721PM.png',
+      ],
+    },
+    {
       id: 'faggod-apparel',
       title: 'FAGGOD Apparel',
       description: 'Campaign shoot production for a bold streetwear brand — creative direction, talent coordination, and full production management.',
