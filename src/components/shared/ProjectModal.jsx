@@ -22,7 +22,7 @@ export default function ProjectModal({ project, open, onClose }) {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl p-0 overflow-hidden bg-card">
         {/* Image gallery */}
-        <div className="relative bg-muted aspect-video overflow-hidden">
+        <div className="relative bg-muted aspect-square overflow-hidden">
           <img
             key={imgIndex}
             src={images[imgIndex]}
@@ -88,10 +88,7 @@ export default function ProjectModal({ project, open, onClose }) {
             {project.fullDescription || project.description}
           </p>
           {project.deliverables && (
-            <div className="mt-5 pt-5 border-t border-border">
-              <h4 className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-foreground mb-1">Deliverables</h4>
-              <p className="text-sm font-body text-muted-foreground">{project.deliverables}</p>
-            </div>
+            <p className="text-sm font-body text-muted-foreground mt-4 pt-4 border-t border-border">{project.deliverables}</p>
           )}
         </div>
       </DialogContent>
