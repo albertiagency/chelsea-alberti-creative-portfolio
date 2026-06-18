@@ -45,7 +45,7 @@ export const projectData = {
       deliverables: 'App concept, brand identity, UX/UI design, build, launch — joinmyco.com',
       category: 'Apps & Digital',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/50650a84e_Screenshot2026-06-18at13025PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2d9843306_Screenshot2026-06-18at15944PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
       ],
     },
