@@ -15,9 +15,9 @@ export default function Work() {
       projects: projectData.brandMarketing,
     },
     {
-      label: 'Apps & Digital',
-      title: 'Apps & Digital',
-      description: 'Original app concepts I built independently — from idea and brand identity through UX design and launch.',
+      label: 'Apps & Web',
+      title: 'Apps & Web',
+      description: 'Original app and web concepts I built independently — from idea and brand identity through UX design and build.',
       projects: projectData.appsDigital,
     },
     {

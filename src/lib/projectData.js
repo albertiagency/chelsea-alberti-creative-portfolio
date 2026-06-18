@@ -43,7 +43,7 @@ export const projectData = {
       description: 'An original app I built — a community platform designed to connect people around shared interests and real-world circles. Led concept, branding, UX, and build.',
       fullDescription: 'MyCo is an original app concept I developed independently. I led everything from the initial concept and brand identity to UX design, interface build, and launch. The app is built around the idea that belonging starts in communities — connecting people through shared interests, depth, and real-world circles, not endless feeds.',
       deliverables: 'App concept, brand identity, UX/UI design, build, launch — joinmyco.com',
-      category: 'Apps & Digital',
+      category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/969f0e9f5_Screenshot2026-06-18at20146PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d92e55c94_Screenshot2026-06-18at20035PM.png',
@@ -56,7 +56,7 @@ export const projectData = {
       description: 'A launched app for creators and entrepreneurs to pitch ideas and get structured, actionable feedback. Concept, brand, UX, and full build — mine start to finish.',
       fullDescription: 'Pitchd is a live, launched app I built independently for creators and entrepreneurs to pitch their ideas and receive structured, actionable feedback. I owned the entire process: concept development, brand identity, UX/UI design, and the full build. Currently live and accepting users.',
       deliverables: 'App concept, UX/UI design, brand identity, full build, launch',
-      category: 'Apps & Digital',
+      category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
@@ -68,7 +68,7 @@ export const projectData = {
       description: 'An app prototype I designed and built to help users organize goals and gain personal clarity through a structured, visual framework.',
       fullDescription: 'Clarity Map is an app prototype I developed independently. I led the concept, brand identity, UX design, and prototype build. The app helps users organize goals and work through decisions with a structured, visual clarity framework. Currently in prototype phase.',
       deliverables: 'App concept, brand identity, UX/UI design, prototype',
-      category: 'Apps & Digital',
+      category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d935447e1_Screenshot2026-06-18at13104PM.png',
       ],
