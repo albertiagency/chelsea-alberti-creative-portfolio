@@ -7,7 +7,7 @@ const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-end overflow-hidden">
+    <section className="relative min-h-screen flex flex-col justify-start overflow-hidden">
       {/* Full-bleed background photo */}
       <div className="absolute inset-0">
         <img
@@ -18,8 +18,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
       </div>
 
-      {/* Text content — pinned to bottom */}
-      <div className="relative z-10 px-6 lg:px-16 pb-20 pt-32 max-w-3xl">
+      {/* Text content — top left */}
+      <div className="relative z-10 px-6 lg:px-16 pt-36 pb-20 max-w-3xl self-start">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
