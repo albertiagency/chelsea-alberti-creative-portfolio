@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Linkedin, Download } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -16,9 +17,29 @@ export default function Footer() {
             <Link to="/about" className="opacity-70 hover:opacity-100 transition-opacity">About</Link>
             <Link to="/contact" className="opacity-70 hover:opacity-100 transition-opacity">Contact</Link>
           </div>
-          <div className="text-sm font-body opacity-70">
-            <p>chelseaalberti@gmail.com</p>
-            <p className="mt-1">716-207-0518</p>
+          <div className="text-sm font-body space-y-3">
+            <p className="opacity-70">chelseaalberti@gmail.com</p>
+            <p className="opacity-70">716-207-0518</p>
+            <div className="flex items-center gap-4 pt-1">
+              <a
+                href="https://www.linkedin.com/in/chelseaalberti/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 opacity-70 hover:opacity-100 transition-opacity"
+              >
+                <Linkedin className="w-4 h-4" />
+                LinkedIn
+              </a>
+              <a
+                href="https://media.base44.com/files/public/6a3416a0b2d81e218daa4cbb/4a7d894c0_ALBERTI_RESUME_FL-2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 opacity-70 hover:opacity-100 transition-opacity"
+              >
+                <Download className="w-4 h-4" />
+                Resume
+              </a>
+            </div>
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-xs font-body opacity-50">
