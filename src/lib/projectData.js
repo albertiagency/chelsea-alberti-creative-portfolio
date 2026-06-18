@@ -82,7 +82,7 @@ export const projectData = {
       deliverables: 'Manufacturer sourcing, sampling oversight, packaging design, brand identity, visual direction',
       category: 'Product Development',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/64e9b7c34_generated_24ed540c.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3db7847f2_18D409F9-19FD-4852-A9D8-FF871EDBEF43.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/dd6d99bd5_generated_f447f54d.png',
       ],
     },
