@@ -1,25 +1,84 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
-import { X } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function ProjectModal({ project, open, onClose }) {
+  const [imgIndex, setImgIndex] = useState(0);
+
   if (!project) return null;
 
+  const images = project.images || [project.image].filter(Boolean);
+  const hasMultiple = images.length > 1;
+
+  const prev = () => setImgIndex((i) => (i - 1 + images.length) % images.length);
+  const next = () => setImgIndex((i) => (i + 1) % images.length);
+
+  // Reset index when project changes
+  const handleOpenChange = (val) => {
+    if (!val) { setImgIndex(0); onClose(); }
+  };
+
   return (
-    <Dialog open={open} onOpenChange={onClose}>
+    <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl p-0 overflow-hidden bg-card">
-        <div className="relative">
+        {/* Image gallery */}
+        <div className="relative bg-muted aspect-video overflow-hidden">
           <img
-            src={project.image}
+            key={imgIndex}
+            src={images[imgIndex]}
             alt={project.title}
-            className="w-full aspect-video object-cover"
+            className="w-full h-full object-cover transition-opacity duration-300"
           />
+          {hasMultiple && (
+            <>
+              <button
+                onClick={prev}
+                className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white transition-colors"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <button
+                onClick={next}
+                className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white transition-colors"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+              {/* Dot indicators */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
+                {images.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setImgIndex(i)}
+                    className={`w-1.5 h-1.5 rounded-full transition-colors ${i === imgIndex ? 'bg-white' : 'bg-white/40'}`}
+                  />
+                ))}
+              </div>
+            </>
+          )}
         </div>
-        <div className="p-6 lg:p-8">
+
+        {/* Thumbnail strip */}
+        {hasMultiple && (
+          <div className="flex gap-2 px-6 pt-4">
+            {images.map((src, i) => (
+              <button
+                key={i}
+                onClick={() => setImgIndex(i)}
+                className={`w-16 h-12 rounded-sm overflow-hidden flex-shrink-0 border-2 transition-colors ${
+                  i === imgIndex ? 'border-accent' : 'border-transparent opacity-60 hover:opacity-100'
+                }`}
+              >
+                <img src={src} alt="" className="w-full h-full object-cover" />
+              </button>
+            ))}
+          </div>
+        )}
+
+        <div className="p-6 lg:p-8 pt-4">
           <DialogHeader>
             <DialogTitle className="font-display text-2xl font-semibold">{project.title}</DialogTitle>
             {project.category && (
-              <p className="text-xs font-body font-medium tracking-widest uppercase text-accent mt-1">
+              <p className="text-xs font-body font-semibold tracking-widest uppercase text-accent mt-1">
                 {project.category}
               </p>
             )}
@@ -29,8 +88,8 @@ export default function ProjectModal({ project, open, onClose }) {
             {project.fullDescription || project.description}
           </p>
           {project.deliverables && (
-            <div className="mt-6">
-              <h4 className="text-sm font-body font-semibold tracking-wide uppercase text-foreground mb-2">Deliverables</h4>
+            <div className="mt-5 pt-5 border-t border-border">
+              <h4 className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-foreground mb-1">Deliverables</h4>
               <p className="text-sm font-body text-muted-foreground">{project.deliverables}</p>
             </div>
           )}

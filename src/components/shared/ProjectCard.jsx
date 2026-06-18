@@ -13,7 +13,7 @@ export default function ProjectCard({ project, onClick, index = 0 }) {
     >
       <div className="overflow-hidden rounded-sm bg-muted aspect-[4/3]">
         <img
-          src={project.image}
+          src={(project.images && project.images[0]) || project.image}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />

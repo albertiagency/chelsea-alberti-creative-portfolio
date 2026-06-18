@@ -11,25 +11,25 @@ export default function Work() {
     {
       label: 'Brand & Marketing',
       title: 'Brand & Marketing',
-      description: 'Brand identity, positioning, print, and marketing materials for small businesses across multiple industries.',
+      description: 'Brand identity, websites, print, and digital marketing materials for small business clients. Strategy, visuals, and messaging built from scratch.',
       projects: projectData.brandMarketing,
     },
     {
-      label: 'Websites & Digital',
-      title: 'Websites & Digital',
-      description: 'Website and digital platform design for businesses and original concepts — structure, visuals, and brand messaging.',
-      projects: projectData.websitesDigital,
+      label: 'Apps & Digital',
+      title: 'Apps & Digital',
+      description: 'Original app concepts I built independently — from idea and brand identity through UX design and launch.',
+      projects: projectData.appsDigital,
     },
     {
       label: 'Product Development',
       title: 'Product Development',
-      description: 'Consumer products from concept through sourcing, sampling, custom packaging, and delivery.',
+      description: 'Consumer products developed from concept through manufacturer sourcing, sampling, custom packaging, and brand identity.',
       projects: projectData.productDevelopment,
     },
     {
       label: 'Creative Production',
-      title: 'Creative Production',
-      description: 'Visual campaigns and commercial shoots for product, fashion, and e-commerce brands — from shoot logistics through creative direction.',
+      title: 'Visual Campaigns & Creative Production',
+      description: 'Commercial shoots and visual campaigns for e-commerce, fashion, and lifestyle brands — from shoot logistics and crew coordination through creative direction and final delivery.',
       projects: projectData.creativeProduction,
     },
   ];

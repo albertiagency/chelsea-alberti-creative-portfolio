@@ -22,10 +22,10 @@ export default function IntroBand() {
             </h2>
             <div className="space-y-4 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
-                I work in the space between the idea and the finished product — the strategy, the logistics, and the moving parts that make brands, campaigns, and launches actually happen.
+                I work in the space between the idea and the finished product — whether that's a brand, a photoshoot, a website, a product, or a social campaign. I'm the person who can hold the creative vision and the execution plan at the same time and keep both moving.
               </p>
               <p>
-                With a background across commercial production, brand development, and creative operations, I bring both a creative eye and the operational follow-through to take work from concept to done.
+                My background spans commercial production, studio operations, brand development, and digital design. My path started with an Interior Design degree, evolved through photography and creative direction, and expanded into creative operations, product development, and independent brand work for small business clients.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ export default function IntroBand() {
                 'Brand Strategy & Identity',
                 'Creative Production',
                 'Product Development',
-                'Digital & Web Design',
+                'Apps & Digital Design',
               ].map((item) => (
                 <div key={item} className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
