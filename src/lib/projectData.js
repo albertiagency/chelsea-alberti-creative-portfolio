@@ -110,6 +110,18 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/64e9b7c34_generated_24ed540c.png',
       ],
     },
+    {
+      id: 'concept-brand-consulting',
+      title: 'Concept & Brand Consulting',
+      description: 'Brainstorming and concept development for other people\'s ideas — naming, taglines, color direction, and brand identity foundations to get a concept off the ground.',
+      fullDescription: 'Sometimes people have a solid idea but need help shaping it into something real. I work with founders and creatives in early concept stages — brainstorming product and brand concepts, developing name ideas, writing taglines, building out color direction, and creating a brand identity foundation that gives the idea a visual and verbal identity to build from. This is the messy, generative work that happens before a logo brief.',
+      deliverables: 'Concept brainstorming, naming ideation, tagline development, color palette direction, brand identity foundations, positioning worksheets',
+      category: 'Product Development',
+      images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/dd6d99bd5_generated_f447f54d.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/63190f313_generated_c28d7045.png',
+      ],
+    },
   ],
   creativeProduction: [
     {
