@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Linkedin, Download } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/9dfebe5df_20250914_Chelsea_Studio_11.jpg';
 
@@ -80,32 +80,7 @@ export default function Hero() {
           </Link>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
-          className="flex items-center gap-4 mt-8"
-        >
-          <a
-            href="https://www.linkedin.com/in/chelseaalberti/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-xs font-body font-medium text-white/50 hover:text-white transition-colors"
-          >
-            <Linkedin className="w-4 h-4" />
-            LinkedIn
-          </a>
-          <span className="w-px h-4 bg-white/20" />
-          <a
-            href="https://media.base44.com/files/public/6a3416a0b2d81e218daa4cbb/4a7d894c0_ALBERTI_RESUME_FL-2.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-xs font-body font-medium text-white/50 hover:text-white transition-colors"
-          >
-            <Download className="w-4 h-4" />
-            Resume
-          </a>
-        </motion.div>
+
       </div>
     </section>
   );
