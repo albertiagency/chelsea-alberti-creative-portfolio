@@ -21,9 +21,9 @@ export const projectData = {
     {
       id: 'the-window-boys',
       title: 'The Window Boys',
-      description: 'Brand identity, digital marketing materials, and web presence for a home services company. Designed for credibility and local reach.',
-      fullDescription: 'Created the brand identity and digital presence for The Window Boys, a residential and commercial window cleaning company. Developed the logo, brand system, and web content strategy, then designed the website and supporting digital marketing assets.',
-      deliverables: 'Logo, brand identity, website design, digital marketing materials',
+      description: 'Brand identity, signage, and print materials for a residential and commercial window cleaning company.',
+      fullDescription: 'Created the complete brand identity for The Window Boys. Developed the logo and brand system, then produced signage and print materials for local market presence.',
+      deliverables: 'Logo, brand identity, signage, print materials',
       category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8ca35cba7_Truck_Placement.png',
