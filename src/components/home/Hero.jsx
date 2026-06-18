@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Linkedin, Download } from 'lucide-react';
 
-const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/fab71641c_20250914_Chelsea_Studio_15.jpg';
+const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/75fc7da2a_20250914_Chelsea_Studio_12.jpg';
 
 export default function Hero() {
   return (
@@ -13,7 +13,7 @@ export default function Hero() {
         <img
           src={HERO_IMAGE}
           alt="Chelsea Alberti"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
       </div>
