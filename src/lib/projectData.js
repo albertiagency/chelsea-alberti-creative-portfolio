@@ -35,7 +35,8 @@ export const projectData = {
       deliverables: 'Logo, brand identity, print collateral, digital marketing materials (in progress)',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/63190f313_generated_c28d7045.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7cd56024a_generated_image.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2828ba22a_Screenshot2026-06-18at22422PM.png',
       ],
     },
   ],
