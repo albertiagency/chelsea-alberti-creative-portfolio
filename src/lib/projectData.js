@@ -8,7 +8,7 @@ export const projectData = {
       deliverables: 'Logo, brand guidelines, business cards, yard signage, vehicle graphics, full website design & build',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2b381c55e_generated_288a1c9a.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/78e48d500_Screenshot2026-06-18at123209PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/dfdec04e6_generated_c1ad4483.png',
       ],
     },
@@ -20,7 +20,7 @@ export const projectData = {
       deliverables: 'Logo, brand identity, website design, digital marketing materials',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/63190f313_generated_c28d7045.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/fd338b3be_Screenshot2026-06-18at13004PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
       ],
     },
@@ -45,7 +45,7 @@ export const projectData = {
       deliverables: 'App concept, brand identity, UX/UI design, build, launch — joinmyco.com',
       category: 'Apps & Digital',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/50650a84e_Screenshot2026-06-18at13025PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
       ],
     },
@@ -57,7 +57,7 @@ export const projectData = {
       deliverables: 'App concept, UX/UI design, brand identity, full build, launch',
       category: 'Apps & Digital',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
       ],
     },
@@ -69,7 +69,7 @@ export const projectData = {
       deliverables: 'App concept, brand identity, UX/UI design, prototype',
       category: 'Apps & Digital',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d935447e1_Screenshot2026-06-18at13104PM.png',
       ],
     },
   ],
