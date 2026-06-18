@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Linkedin, Download } from 'lucide-react';
 
-const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/75fc7da2a_20250914_Chelsea_Studio_12.jpg';
+const HERO_IMAGE = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/9dfebe5df_20250914_Chelsea_Studio_11.jpg';
 
 export default function Hero() {
   return (
