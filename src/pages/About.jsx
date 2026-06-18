@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
 import TestimonialCard from '@/components/about/TestimonialCard';
 
-const ABOUT_PORTRAIT = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ca9c082c4_generated_ed15bfac.png';
+const ABOUT_PORTRAIT = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b8a2065bf_20250914_Chelsea_Studio_10.jpg';
 
 const journey = [
   {
