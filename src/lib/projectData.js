@@ -143,6 +143,17 @@ export const projectData = {
       ],
     },
     {
+      id: 'helvak-apparel',
+      title: 'Helvak Apparel',
+      description: 'Campaign shoot production for a contemporary fashion brand — creative direction, talent coordination, and on-set production management.',
+      fullDescription: 'Managed campaign shoot production for Helvak Apparel. Oversaw creative direction, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s modern, editorial aesthetic.',
+      deliverables: 'Creative direction, talent & crew coordination, shoot production, campaign imagery delivery',
+      category: 'Creative Production',
+      images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5978c0654_Screenshot2025-03-01at94809PM.png',
+      ],
+    },
+    {
       id: 'faggod-apparel',
       title: 'FAGGOD Apparel',
       description: 'Campaign shoot production for a bold streetwear brand — creative direction, talent coordination, and full production management.',
