@@ -30,7 +30,7 @@ export default function Navbar() {
     }`} style={{ colorScheme: scrolled ? 'light' : 'dark' }}>
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link to="/" className={`font-display text-lg lg:text-xl font-semibold tracking-tight transition-colors ${scrolled ? 'text-foreground hover:text-accent' : 'text-white hover:text-white/70'}`}>
+          <Link to="/" className="font-display text-lg lg:text-xl font-semibold tracking-tight text-foreground hover:text-accent transition-colors">
             Chelsea Alberti
           </Link>
 
@@ -41,27 +41,23 @@ export default function Navbar() {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-body font-medium tracking-wide transition-colors relative ${
-                  scrolled
-                    ? (location.pathname === link.path ? 'text-foreground' : 'text-muted-foreground hover:text-foreground')
-                    : (location.pathname === link.path ? 'text-white' : 'text-white/60 hover:text-white')
+                  location.pathname === link.path
+                    ? 'text-foreground'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 {link.label}
                 {location.pathname === link.path && (
                   <motion.span
                     layoutId="nav-underline"
-                    className={`absolute -bottom-1 left-0 right-0 h-px ${scrolled ? 'bg-accent' : 'bg-white/60'}`}
+                    className="absolute -bottom-1 left-0 right-0 h-px bg-accent"
                   />
                 )}
               </Link>
             ))}
             <Link
               to="/contact"
-              className={`ml-2 px-5 py-2 text-sm font-body font-medium rounded-sm transition-all duration-300 ${
-                scrolled
-                  ? 'bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground'
-                  : 'border border-white/40 text-white hover:border-white hover:bg-white/10'
-              }`}
+              className="ml-2 px-5 py-2 text-sm font-body font-medium bg-primary text-primary-foreground rounded-sm hover:bg-accent hover:text-accent-foreground transition-all duration-300"
             >
               Get in touch
             </Link>
@@ -70,7 +66,7 @@ export default function Navbar() {
           {/* Mobile toggle */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`md:hidden p-2 transition-colors ${scrolled ? 'text-foreground' : 'text-white'}`}
+            className="md:hidden p-2 text-foreground"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
