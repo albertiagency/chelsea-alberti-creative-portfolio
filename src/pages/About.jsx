@@ -46,12 +46,12 @@ const valueProps = [
     ],
   },
   {
-    title: 'Creative Production & Execution',
-    items: [
-      'Coordinating production logistics, shoot preparation, and asset organization.',
-      'Managing photographers, talent, stylists, and freelance crews during production.',
-      'Ensuring creative ideas translate clearly into final deliverables.',
-    ],
+  title: 'Creative Production & Execution',
+  items: [
+    'Coordinating production and event space logistics, shoot preparation, and asset organization.',
+    'Managing photographers, talent, stylists, and freelance crews during production.',
+    'Ensuring creative ideas translate clearly into final deliverables.',
+  ],
   },
   {
     title: 'Visual Content & Storytelling',
