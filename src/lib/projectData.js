@@ -237,7 +237,9 @@ export const projectData = {
       fullDescription: 'Authentic user-generated style content and talking head videos created for brand campaigns.',
       deliverables: 'UGC video production, talking head content, brand integration',
       category: 'Social Content',
-      images: [],
+      images: [
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/f63f45bcb_v12044gd0000d5e9s8vog65v4uvp07m0.MP4',
+      ],
     },
     {
       id: 'event-travel',
