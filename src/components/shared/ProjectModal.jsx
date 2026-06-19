@@ -29,8 +29,7 @@ export default function ProjectModal({ project, open, onClose }) {
   };
 
   // All projects use 3:2 with object-contain so images fully fit without cropping
-  const isPitchd = project.id === 'pitchd';
-  const aspectClass = isPitchd ? 'aspect-[3/4]' : project.category === 'Apps & Web' ? 'aspect-video' : 'aspect-[3/2]';
+  const aspectClass = project.category === 'Apps & Web' ? 'aspect-video' : 'aspect-[3/2]';
   const bgClass = 'bg-white';
   const fitClass = 'object-contain';
 
