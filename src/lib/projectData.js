@@ -9,6 +9,9 @@ export const projectData = {
       category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3df19de46_generated_image.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d6c7adc64_Screenshot2026-06-18at21802PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e70648734_Screenshot2026-06-18at21600PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/bd1a30cd1_Screenshot2026-06-18at21734PM.png',
       ],
     },
     {
