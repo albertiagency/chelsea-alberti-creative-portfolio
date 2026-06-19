@@ -190,6 +190,7 @@ export const projectData = {
       deliverables: 'Creative direction, talent & crew coordination, shoot production, campaign imagery delivery',
       category: 'Creative Production',
       images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c86c2bcfa_FG_1231_LG_RE.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8dfa342ae_Screenshot2025-02-24at62920PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ac78593a1_Screenshot2025-02-24at124114PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0a685284c_Screenshot2025-02-24at124121PM.png',
