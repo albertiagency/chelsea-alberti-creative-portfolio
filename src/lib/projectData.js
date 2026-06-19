@@ -4,7 +4,7 @@ export const projectData = {
       id: 'ja-timber-brand',
       title: 'JA Timber & Land Clearing',
       description: 'Full brand identity + website for a land-management company. Logo, signage, business cards, print materials, and a complete website build.',
-      fullDescription: 'Built the full brand and web presence for JA Timber & Land Clearing from the ground up. Designed the logo and complete visual identity, produced yard signs, business cards, and vehicle graphics, then designed and built the website. Everything was developed with a unified visual language that positions JA Timber as a credible, professional operation.',
+      fullDescription: 'Built the full brand and web presence for JA Timber & Land Clearing from the ground up. Designed the logo and complete visual identity, produced yard signs, business cards, and vehicle graphics, then designed and built the website — all developed with a unified visual language that positions JA Timber as a credible, professional operation.',
       deliverables: 'Logo, brand guidelines, business cards, yard signage, vehicle graphics, full website design & build',
       category: 'Brand & Marketing',
       images: [
@@ -17,9 +17,9 @@ export const projectData = {
     {
       id: 'the-window-boys',
       title: 'The Window Boys',
-      description: 'Brand identity, signage, and print materials for a residential and commercial window cleaning company.',
-      fullDescription: 'Created the complete brand identity for The Window Boys. Developed the logo and brand system, then produced signage and print materials for local market presence.',
-      deliverables: 'Logo, brand identity, signage, print materials',
+      description: 'Marketing and ongoing print materials for a residential and commercial window cleaning company, including vendor coordination.',
+      fullDescription: 'Handled marketing and print materials for The Window Boys on an ongoing basis. Produced collateral and vehicle signage, and coordinated production with outside vendors to keep everything consistent and on-brand.',
+      deliverables: 'Print materials, vehicle signage, marketing collateral, vendor coordination',
       category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8ca35cba7_Truck_Placement.png',
@@ -30,9 +30,9 @@ export const projectData = {
     {
       id: 'toscana-salon',
       title: 'Toscana Salon',
-      description: 'Website design and build for a boutique hair salon with a focus on owner story, spa chair rental recruitment, and social media content strategy. Currently in progress.',
-      fullDescription: 'Building an online presence for Toscana Salon that goes beyond aesthetics. The website tells the owner\'s story, showcases the salon\'s unique approach, and drives recruitment for spa rental chair operators. Complemented by a comprehensive social media content strategy to build community and attract both clients and chair renters.',
-      deliverables: 'Website design & build, brand narrative, recruitment campaign strategy, social media content planning and creation',
+      description: 'Full brand and marketing buildout for a salon and wellness spa — brand foundation, website, and a recruitment and social strategy to fill chair rentals. In progress.',
+      fullDescription: 'A complete brand and marketing buildout for Toscana Salon, a salon and wellness destination entering its next chapter. Defining the brand foundation — the owner\'s story, positioning, and voice — then building the website, a recruitment campaign to attract chair renters, and a social content strategy to grow the salon\'s presence and bring in both renters and clients.',
+      deliverables: 'Brand foundation, positioning & voice, website design & build, recruitment campaign, social content strategy',
       category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b386c31ed_Screenshot2026-06-18at103201PM.png',
