@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const COLLAGE_IMAGES = [
   // Column 1 (top to bottom)
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/528296507_Screenshot2026-06-18at15113PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8dfa342ae_Screenshot2025-02-24at62920PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/694931435_DSC_0027.jpg',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3e60113d8_Screenshot2026-06-18at112028PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/cb3098cf9_Screenshot2026-06-18at112554PM.png',
   // Column 2 (top to bottom)
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/74b05f16f_Screenshot2025-02-24at60129PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a4e077dae_Screenshot2025-02-23at61452PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8fe87471f_Screenshot2026-06-18at102733PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/815ce7f30_Screenshot2026-06-18at111641PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6f224be70_Screenshot2026-06-18at112513PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/82638b7d4_Screenshot2026-06-18at112636PM.png',
 ];
 
 export default function IntroBand() {
