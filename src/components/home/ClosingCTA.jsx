@@ -14,7 +14,7 @@ export default function ClosingCTA() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-display text-3xl lg:text-5xl font-semibold">
-            Let's build something that works.
+            Is your team hiring?
           </h2>
           <p className="text-base lg:text-lg font-body opacity-70 mt-4 max-w-lg mx-auto">
             I'm open to new opportunities and always interested in a good conversation about creative work.
