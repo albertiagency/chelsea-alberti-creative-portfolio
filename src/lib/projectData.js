@@ -49,7 +49,11 @@ export const projectData = {
       category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c9ff60016_2-Home.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0c4d81dd1_3-PersonalizedPlan.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/71d781f2e_4-Recording.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/4adc25930_5-DrillsPlaybook.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/71255d615_6-RealFeedback.png',
       ],
     },
     {
