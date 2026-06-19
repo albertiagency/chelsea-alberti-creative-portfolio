@@ -218,11 +218,7 @@ export const projectData = {
       ],
     },
   ],
-  socialContent: {
-    ugc: [],
-    eventRecap: [],
-    brandContent: [],
-  },
+  socialContent: [],
 };
 
 export const allProjects = [
@@ -230,9 +226,7 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
-  ...projectData.socialContent.ugc,
-  ...projectData.socialContent.eventRecap,
-  ...projectData.socialContent.brandContent,
+  ...projectData.socialContent,
 ];
 
 export const featuredProjects = [

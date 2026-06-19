@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import CategorySection from '@/components/work/CategorySection';
 import ProjectModal from '@/components/shared/ProjectModal';
-import SocialSection from '@/components/work/SocialSection';
 import { projectData } from '@/lib/projectData';
 
 export default function Work() {
@@ -37,7 +36,7 @@ export default function Work() {
       label: 'Social Content',
       title: 'Social Content',
       description: 'Social content across formats — UGC and talking head, event recaps, and brand-focused campaigns.',
-      isSocial: true,
+      projects: projectData.socialContent,
     },
   ];
 
@@ -66,17 +65,13 @@ export default function Work() {
         <div className="w-full h-px bg-border" />
 
         {/* Category sections */}
-        {categories.map((cat) =>
-          cat.isSocial ? (
-            <SocialSection key="social" onProjectClick={setSelectedProject} />
-          ) : (
-            <CategorySection
-              key={cat.label}
-              {...cat}
-              onProjectClick={setSelectedProject}
-            />
-          )
-        )}
+        {categories.map((cat) => (
+          <CategorySection
+            key={cat.label}
+            {...cat}
+            onProjectClick={setSelectedProject}
+          />
+        ))}
       </div>
 
       <ProjectModal
