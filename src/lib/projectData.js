@@ -239,6 +239,7 @@ export const projectData = {
       category: 'Social Content',
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/f63f45bcb_v12044gd0000d5e9s8vog65v4uvp07m0.MP4',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/7e52565f4_v12044gd0000d4426knog65sflmt9n0g.MP4',
       ],
     },
     {
