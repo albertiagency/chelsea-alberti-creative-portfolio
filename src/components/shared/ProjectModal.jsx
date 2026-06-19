@@ -32,8 +32,8 @@ export default function ProjectModal({ project, open, onClose }) {
     if (!val) { setImgIndex(0); onClose(); }
   };
 
-  // All projects use 3:2 with object-contain so images fully fit without cropping
-  const aspectClass = project.category === 'Apps & Web' ? 'aspect-video' : 'aspect-[3/2]';
+  // Aspect ratios by category
+  const aspectClass = project.category === 'Apps & Web' ? 'aspect-video' : project.category === 'Social Content' ? 'aspect-[2/3]' : 'aspect-[3/2]';
   const bgClass = 'bg-white';
   const fitClass = 'object-contain';
 
