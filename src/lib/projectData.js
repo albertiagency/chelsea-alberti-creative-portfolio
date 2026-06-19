@@ -24,7 +24,7 @@ export const projectData = {
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8ca35cba7_Truck_Placement.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e6c761de1_Screenshot2026-06-18at100233PM.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/eeaaa9dfa_generated_9417aab5.png',
+
       ],
     },
     {
