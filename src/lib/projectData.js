@@ -220,11 +220,10 @@ export const projectData = {
   ],
   socialContent: [
     {
-      id: 'brand-focused',
-      title: 'Brand Focused',
-      description: 'Polished, brand-aligned social content built for campaign use.',
-      fullDescription: 'Polished, brand-aligned social content developed and produced for campaign use across platforms.',
-      deliverables: 'Brand content strategy, production, social campaign delivery',
+      id: 'safran-everyday-promo',
+      title: 'Safran Everyday Promo',
+      description: 'Brand promo for Safran Everyday.',
+      fullDescription: 'Brand promo for Safran Everyday.',
       category: 'Social Content',
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/0642c97b4_Dog_Bag_Demo_text.mov',
