@@ -1,7 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const PORTRAIT_URL = 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/43a84d31d_generated_3d710e5a.png';
+const COLLAGE_IMAGES = [
+  // Column 1 (top to bottom)
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/528296507_Screenshot2026-06-18at15113PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8dfa342ae_Screenshot2025-02-24at62920PM.png',
+  // Column 2 (top to bottom)
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/74b05f16f_Screenshot2025-02-24at60129PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a4e077dae_Screenshot2025-02-23at61452PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8fe87471f_Screenshot2026-06-18at102733PM.png',
+];
 
 export default function IntroBand() {
   return (
@@ -49,16 +58,22 @@ export default function IntroBand() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="relative"
+            className="grid grid-cols-2 gap-2"
           >
-            <div className="aspect-[3/4] rounded-sm overflow-hidden">
-              <img
-                src={PORTRAIT_URL}
-                alt="Chelsea Alberti"
-                className="w-full h-full object-cover"
-              />
+            <div className="flex flex-col gap-2">
+              {COLLAGE_IMAGES.slice(0, 3).map((src, i) => (
+                <div key={i} className="aspect-[2/3] rounded-sm overflow-hidden">
+                  <img src={src} alt="" className="w-full h-full object-cover" />
+                </div>
+              ))}
             </div>
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-accent rounded-sm hidden lg:block" />
+            <div className="flex flex-col gap-2 mt-6">
+              {COLLAGE_IMAGES.slice(3).map((src, i) => (
+                <div key={i} className="aspect-[2/3] rounded-sm overflow-hidden">
+                  <img src={src} alt="" className="w-full h-full object-cover" />
+                </div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>
