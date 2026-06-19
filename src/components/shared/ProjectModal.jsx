@@ -20,9 +20,9 @@ export default function ProjectModal({ project, open, onClose }) {
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
-      <DialogContent className="max-w-3xl p-0 overflow-hidden bg-card">
+      <DialogContent className="max-w-3xl w-[95vw] p-0 overflow-hidden overflow-y-auto bg-card max-h-[92vh] rounded-sm">
         {/* Image gallery */}
-        <div className={`relative bg-muted overflow-hidden ${project.category === 'Apps & Web' ? 'aspect-video' : project.category === 'Brand & Marketing' ? 'aspect-[3/2]' : 'aspect-square'}`}>
+        <div className={`relative bg-muted overflow-hidden flex-shrink-0 ${project.category === 'Apps & Web' ? 'aspect-video' : project.category === 'Brand & Marketing' ? 'aspect-[3/2]' : 'aspect-square'}`}>
           <img
             key={imgIndex}
             src={images[imgIndex]}
@@ -74,7 +74,7 @@ export default function ProjectModal({ project, open, onClose }) {
           </div>
         )}
 
-        <div className="p-6 lg:p-8 pt-4">
+        <div className="p-5 lg:p-8 pt-4">
           <DialogHeader>
             <DialogTitle className="font-display text-2xl font-semibold">{project.title}</DialogTitle>
             {project.category && (
