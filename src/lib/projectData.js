@@ -251,6 +251,9 @@ export const projectData = {
       category: 'Social Content',
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/510be9320_EveryonehatesonSantaMonicabutifyoureupbeforethesunrisesitsactuallyquiteniceh.mp4',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/2556a6874_SignupforthegrandopeningeventSoyoureprobablywonderingwhatandwhosadorablelittle.mp4',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/f7ec084ef_Isthereanythingbetterthanspendingtheeveningdancingunderthestarstogoodmusicwithgo.mp4',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/b17c19be7_v12044gd0000d2ocgvnog65tknomrf7g.MP4',
       ],
     },
   ],
