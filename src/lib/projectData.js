@@ -244,7 +244,7 @@ export const projectData = {
     },
     {
       id: 'event-travel',
-      title: 'Event / Travel',
+      title: 'Event / Travel / Vlogs',
       description: 'Travel vlogs and event recaps — salons, cities, restaurants, and destinations explored.',
       fullDescription: 'Travel vlogs and event recaps capturing places visited, experiences explored, and events covered. From salon tours and restaurant visits to city guides and destination recaps.',
       deliverables: 'Travel content, event recaps, location guides, social-ready edits',
