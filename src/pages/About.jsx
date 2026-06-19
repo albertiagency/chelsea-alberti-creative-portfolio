@@ -109,7 +109,7 @@ const roles = [
   'Product Development & Launch',
   'Brand Activations & Experiential Marketing',
   'Studio Coordination & Management',
-  'Digital Asset Management',
+  'Creative Direction',
   'Influencer Marketing & Social Strategy',
 ];
 
