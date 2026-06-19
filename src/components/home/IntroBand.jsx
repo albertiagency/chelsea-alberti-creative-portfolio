@@ -27,20 +27,20 @@ export default function IntroBand() {
               What I Do
             </p>
             <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-6">
-              Where the idea meets the finished product.
+              Is your team hiring?
             </h2>
             <div className="space-y-4 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
-                I work in the space between the idea and the finished product — whether that's a brand, a photoshoot, a website, a product, or a social campaign. I'm the person who can hold the creative vision and the execution plan at the same time and keep both moving.
+                I work across the full creative and marketing spectrum — brand strategy, campaign production, digital design, product development, and social content. I'm the person who can hold the creative vision and the marketing plan at the same time and keep both moving.
               </p>
               <p>
-                My background spans commercial production, studio operations, brand development, and digital design. My path started with an Interior Design degree, evolved through photography and creative direction, and expanded into creative operations, product development, and independent brand work for small business clients.
+                My background spans commercial production, studio operations, brand and marketing development, and digital design. My path started with an Interior Design degree, evolved through photography and creative direction, and expanded into creative operations, product development, and brand and marketing work for small business clients.
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
-                'Brand Strategy & Identity',
+                'Brand & Marketing',
                 'Creative Production',
                 'Product Development',
                 'Apps & Digital Design',
