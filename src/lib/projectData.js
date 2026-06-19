@@ -190,6 +190,7 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0a685284c_Screenshot2025-02-24at124121PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a111669ae_Screenshot2025-02-24at124127PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e017fe087_Screenshot2025-03-01at51300PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7d6912c00_Screenshot2025-02-24at70035PM.png',
       ],
     },
   ],
