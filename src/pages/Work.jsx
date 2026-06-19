@@ -11,7 +11,7 @@ export default function Work() {
     {
       label: 'Brand & Marketing',
       title: 'Brand & Marketing',
-      description: 'Brand identity, websites, print, and digital marketing materials for small business clients. Strategy, visuals, and messaging built from scratch.',
+      description: 'Brand identity, websites, print, and marketing materials for small business clients — from full brand builds to ongoing marketing support.',
       projects: projectData.brandMarketing,
     },
     {
@@ -57,7 +57,7 @@ export default function Work() {
             Selected Work
           </h1>
           <p className="text-lg font-body text-muted-foreground mt-6 leading-relaxed">
-            I work across brand identity and marketing, apps and digital platforms, product development, creative production, and social content. Whether it's building a brand system from scratch, designing and launching an app, developing a consumer product concept, directing a commercial shoot, or shaping a company's visual voice — I take ideas from concept through finished execution.
+            I work across brand identity and marketing, apps and digital platforms, product development, creative production, and social content. Whether it's building a brand from scratch, designing and launching an app, developing a consumer product, directing a commercial shoot, or shaping a company's visual voice — I take ideas from concept through finished execution.
           </p>
         </motion.div>
 
