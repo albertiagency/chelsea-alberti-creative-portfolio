@@ -119,6 +119,7 @@ export const projectData = {
       description: "Large-scale e-commerce campaign production — coordinated shoot logistics, supported creative direction, and managed on-set operations for seasonal campaigns.",
       fullDescription: "Coordinated production on Gabes' high-volume seasonal e-commerce campaigns. Managed shoot logistics, crew coordination, model scheduling, and on-set operations. Supported creative direction to maintain brand consistency across a large volume of deliverables on tight timelines.",
       deliverables: 'Shoot logistics, crew & talent coordination, on-set production management, campaign delivery',
+      website: 'https://gabesstores.com',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
@@ -134,6 +135,7 @@ export const projectData = {
       description: 'Campaign shoot production for a women\'s lifestyle brand — shoot logistics, talent coordination, and on-set production management.',
       fullDescription: 'Managed campaign shoot production for Safran Everyday. Oversaw shoot logistics, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s warm, editorial aesthetic.',
       deliverables: 'Shoot logistics, talent & crew coordination, on-set production management, campaign imagery delivery',
+      website: 'https://safraneveryday.com',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/528296507_Screenshot2026-06-18at15113PM.png',
@@ -152,6 +154,7 @@ export const projectData = {
       description: 'Campaign shoot production for a promotional products brand — product styling, shoot logistics, and on-set production management.',
       fullDescription: 'Managed campaign shoot production for PCNA, a leading promotional products company. Oversaw product styling, shoot logistics, and on-set production to deliver catalog and marketing imagery across their product lines.',
       deliverables: 'Product styling, shoot logistics, on-set production management, campaign imagery delivery',
+      website: 'https://www.pcna.com',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/676e27d64_Screenshot2025-03-03at34721PM.png',

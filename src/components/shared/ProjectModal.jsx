@@ -90,6 +90,11 @@ export default function ProjectModal({ project, open, onClose }) {
           {project.deliverables && (
             <p className="text-sm font-body text-muted-foreground mt-4 pt-4 border-t border-border">{project.deliverables}</p>
           )}
+          {project.website && (
+            <a href={project.website} target="_blank" rel="noopener noreferrer" className="inline-block mt-3 text-sm font-body font-medium text-accent hover:underline">
+              {project.website.replace(/^https?:\/\/(www\.)?/, '')} →
+            </a>
+          )}
         </div>
       </DialogContent>
     </Dialog>
