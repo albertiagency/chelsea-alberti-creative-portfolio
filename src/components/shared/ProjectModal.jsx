@@ -41,7 +41,7 @@ export default function ProjectModal({ project, open, onClose }) {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl w-[95vw] p-0 overflow-y-auto bg-card max-h-[92vh] rounded-sm flex flex-col">
         {/* Image/Video gallery */}
-        <div className={`relative overflow-hidden w-full flex-shrink-0 ${aspectClass} ${bgClass}`}>
+        <div className={`relative overflow-hidden w-full flex-shrink-0 ${aspectClass} ${bgClass} ${project.category === 'Social Content' ? 'max-h-[50vh]' : ''}`}>
           {isVideoUrl(images[imgIndex]) ? (
             <video
               key={imgIndex}
