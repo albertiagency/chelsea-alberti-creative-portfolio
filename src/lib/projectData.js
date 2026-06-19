@@ -245,9 +245,9 @@ export const projectData = {
     {
       id: 'event-travel',
       title: 'Event / Travel',
-      description: 'On-the-ground event coverage and travel content.',
-      fullDescription: 'On-the-ground event coverage and travel content captured and produced for social platforms.',
-      deliverables: 'Event coverage, travel content, social-ready edits',
+      description: 'Travel vlogs and event recaps — salons, cities, restaurants, and destinations explored.',
+      fullDescription: 'Travel vlogs and event recaps capturing places visited, experiences explored, and events covered. From salon tours and restaurant visits to city guides and destination recaps.',
+      deliverables: 'Travel content, event recaps, location guides, social-ready edits',
       category: 'Social Content',
       images: [],
     },
