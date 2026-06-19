@@ -74,6 +74,7 @@ export const projectData = {
       category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d935447e1_Screenshot2026-06-18at13104PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a3646f051_Screenshot2026-06-18at100112PM.png',
       ],
     },
   ],
