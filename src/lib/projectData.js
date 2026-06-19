@@ -125,6 +125,7 @@ export const projectData = {
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3e105a8b0_Screenshot2026-06-19at122514PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a4e077dae_Screenshot2025-02-23at61452PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/74b05f16f_Screenshot2025-02-24at60129PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ee441a5bb_Screenshot2025-02-24at60137PM.png',
