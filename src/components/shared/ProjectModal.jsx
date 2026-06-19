@@ -36,6 +36,8 @@ export default function ProjectModal({ project, open, onClose }) {
     ? 'aspect-video'
     : project.category === 'Brand & Marketing'
     ? 'aspect-[3/2]'
+    : project.category === 'Creative Production'
+    ? 'aspect-[3/2]'
     : 'aspect-square';
 
   // Portrait images get white bg + contain, landscape get cover
