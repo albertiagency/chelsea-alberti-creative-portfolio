@@ -169,6 +169,9 @@ export const projectData = {
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d9f3588b7_Screenshot2025-03-01at95020PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5978c0654_Screenshot2025-03-01at94809PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/24459a95c_DSC04552.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/54a2f4f66_DSC05160.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/fa6ba5fa6_DSC05494.jpg',
       ],
     },
     {
