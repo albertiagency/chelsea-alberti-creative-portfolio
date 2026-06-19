@@ -220,13 +220,14 @@ export const projectData = {
   ],
   socialContent: [
     {
-      id: 'safran-everyday-promo',
-      title: 'Safran Everyday Promo',
-      description: 'Brand promo for Safran Everyday.',
-      fullDescription: 'Brand promo for Safran Everyday.',
+      id: 'brand-promos',
+      title: 'Brand Promos',
+      description: 'Polished brand promo videos for social campaigns.',
+      fullDescription: 'Polished brand promo videos produced for social campaigns.',
       category: 'Social Content',
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/0642c97b4_Dog_Bag_Demo_text.mov',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/50ba47094_FGV_PROMO_FINAL_GLITCH_SBS_wide.mp4',
       ],
     },
     {
