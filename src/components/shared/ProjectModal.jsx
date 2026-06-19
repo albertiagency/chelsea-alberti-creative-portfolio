@@ -82,7 +82,7 @@ export default function ProjectModal({ project, open, onClose }) {
 
         {/* Thumbnail strip */}
         {hasMultiple && (
-          <div className="flex gap-2 px-6 pt-4">
+          <div className="flex gap-2 px-6 pt-4 flex-wrap relative z-10 bg-card">
             {images.map((src, i) => (
               <button
                 key={i}
