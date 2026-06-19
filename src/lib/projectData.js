@@ -218,9 +218,35 @@ export const projectData = {
       ],
     },
   ],
-  socialUGC: [],
-  socialEventTravel: [],
-  socialBrandFocused: [],
+  socialContent: [
+    {
+      id: 'ugc',
+      title: 'UGC',
+      description: 'Authentic user-generated style content and talking head videos.',
+      fullDescription: 'Authentic user-generated style content and talking head videos created for brand campaigns.',
+      deliverables: 'UGC video production, talking head content, brand integration',
+      category: 'Social Content',
+      images: [],
+    },
+    {
+      id: 'event-travel',
+      title: 'Event / Travel',
+      description: 'On-the-ground event coverage and travel content.',
+      fullDescription: 'On-the-ground event coverage and travel content captured and produced for social platforms.',
+      deliverables: 'Event coverage, travel content, social-ready edits',
+      category: 'Social Content',
+      images: [],
+    },
+    {
+      id: 'brand-focused',
+      title: 'Brand Focused',
+      description: 'Polished, brand-aligned social content built for campaign use.',
+      fullDescription: 'Polished, brand-aligned social content developed and produced for campaign use across platforms.',
+      deliverables: 'Brand content strategy, production, social campaign delivery',
+      category: 'Social Content',
+      images: [],
+    },
+  ],
 };
 
 export const allProjects = [
@@ -228,9 +254,7 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
-  ...projectData.socialUGC,
-  ...projectData.socialEventTravel,
-  ...projectData.socialBrandFocused,
+  ...projectData.socialContent,
 ];
 
 export const featuredProjects = [
