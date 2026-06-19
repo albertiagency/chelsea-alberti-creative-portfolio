@@ -35,7 +35,7 @@ export const projectData = {
       deliverables: 'Brand foundation, positioning & voice, website design & build, recruitment campaign, social content strategy',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b386c31ed_Screenshot2026-06-18at103201PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/efef85518_Screenshot2026-06-19at104124AM.png',
       ],
     },
   ],
