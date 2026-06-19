@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Volume2, VolumeX } from 'lucide-react';
 
 function isVideoUrl(url) {
   return /\.(mp4|webm|mov|avi|mkv)$/i.test(url);
@@ -19,6 +19,7 @@ function useImageOrientation(src) {
 
 export default function ProjectModal({ project, open, onClose }) {
   const [imgIndex, setImgIndex] = useState(0);
+  const [isMuted, setIsMuted] = useState(true);
   const images = project ? (project.images || [project.image].filter(Boolean)) : [];
   const isPortrait = useImageOrientation(images[imgIndex]);
 
@@ -43,12 +44,26 @@ export default function ProjectModal({ project, open, onClose }) {
         {/* Image/Video gallery */}
         <div className={`relative overflow-hidden w-full flex-shrink-0 ${aspectClass} ${bgClass} ${project.category === 'Social Content' ? 'max-h-[50vh]' : ''}`}>
           {isVideoUrl(images[imgIndex]) ? (
-            <video
-              key={imgIndex}
-              src={images[imgIndex]}
-              controls
-              className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
-            />
+            <>
+              <video
+                key={imgIndex}
+                src={images[imgIndex]}
+                controls
+                muted={isMuted}
+                className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
+              />
+              <button
+                onClick={() => setIsMuted(!isMuted)}
+                className="absolute top-3 right-3 w-9 h-9 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white transition-colors"
+                title={isMuted ? 'Unmute' : 'Mute'}
+              >
+                {isMuted ? (
+                  <VolumeX className="w-5 h-5" />
+                ) : (
+                  <Volume2 className="w-5 h-5" />
+                )}
+              </button>
+            </>
           ) : (
             <img
               key={imgIndex}
