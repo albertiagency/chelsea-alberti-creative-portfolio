@@ -118,9 +118,9 @@ export const projectData = {
     {
       id: 'gabes-production',
       title: "Gabes",
-      description: "Large-scale e-commerce campaign production — coordinated shoot logistics, supported creative direction, and managed on-set operations for seasonal campaigns.",
-      fullDescription: "Coordinated production on Gabes' high-volume seasonal e-commerce campaigns. Managed shoot logistics, crew coordination, model scheduling, and on-set operations. Supported creative direction to maintain brand consistency across a large volume of deliverables on tight timelines.",
-      deliverables: 'Shoot logistics, crew & talent coordination, on-set production management, campaign delivery',
+      description: "Large-scale e-commerce campaign production — shoot logistics, location scouting, talent direction, prop & sample coordination, and creative direction for seasonal campaigns.",
+      fullDescription: "Coordinated production on Gabes' high-volume seasonal e-commerce campaigns. Managed shoot logistics, location scouting, crew and talent coordination, prop and sample management, and on-set creative direction. Maintained brand consistency across a large volume of deliverables on tight timelines.",
+      deliverables: 'Shoot logistics, location scouting, talent direction, prop & sample coordination, set styling, creative direction, campaign delivery',
       website: 'https://gabesstores.com',
       category: 'Creative Production',
       images: [

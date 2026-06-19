@@ -40,9 +40,10 @@ export default function ProjectModal({ project, open, onClose }) {
     ? 'aspect-[3/2]'
     : 'aspect-square';
 
-  // Portrait images get white bg + contain, landscape get cover
-  const bgClass = isPitchd ? 'bg-black' : isPortrait ? 'bg-white' : 'bg-muted';
-  const fitClass = isPitchd || isPortrait ? 'object-contain' : 'object-cover';
+  // Portrait images get white bg + contain; Creative Production uses contain to show full image
+  const isCreativeProduction = project.category === 'Creative Production';
+  const bgClass = isPitchd ? 'bg-black' : (isPortrait || isCreativeProduction) ? 'bg-white' : 'bg-muted';
+  const fitClass = isPitchd || isPortrait || isCreativeProduction ? 'object-contain' : 'object-cover';
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
