@@ -31,17 +31,17 @@ export default function IntroBand() {
             </h2>
             <div className="space-y-4 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
-                I work across the full creative and marketing spectrum — brand strategy, campaign production, digital design, product development, and social content. I'm the person who can hold the creative vision and the marketing plan at the same time and keep both moving.
+                I work across the full creative and marketing spectrum — brand strategy, campaign and event production, digital design, product development, and social content. I'm the person who can hold the creative vision and the marketing plan at the same time, lead the team and the moving parts, and keep both moving.
               </p>
               <p>
-                My background spans commercial production, studio operations, brand and marketing development, and digital design. My path started with an Interior Design degree, evolved through photography and creative direction, and expanded into creative operations, product development, and brand and marketing work for small business clients.
+                My background spans commercial production, studio operations, brand and marketing development, and digital design. My path started with an Interior Design degree, evolved through photography, styling, and creative direction, and expanded into creative operations, team leadership, product development, and brand and marketing work for small business clients.
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
                 'Brand & Marketing',
-                'Creative Production',
+                'Creative Production & Events',
                 'Product Development',
                 'Apps & Digital Design',
               ].map((item) => (
