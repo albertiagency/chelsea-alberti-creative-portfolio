@@ -36,7 +36,6 @@ export const projectData = {
       category: 'Brand & Marketing',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/b386c31ed_Screenshot2026-06-18at103201PM.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2828ba22a_Screenshot2026-06-18at22422PM.png',
       ],
     },
   ],
