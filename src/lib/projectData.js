@@ -126,7 +126,7 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/74b05f16f_Screenshot2025-02-24at60129PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ee441a5bb_Screenshot2025-02-24at60137PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8fe87471f_Screenshot2026-06-18at102733PM.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/123871269_Screenshot2025-02-24at60123PM.png',
+
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/04e7eb810_Screenshot2025-02-23at61400PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/2b23549c9_Screenshot2026-06-18at112307PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/892e63672_Screenshot2026-06-18at112440PM.png',
