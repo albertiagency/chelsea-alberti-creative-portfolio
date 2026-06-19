@@ -220,6 +220,15 @@ export const projectData = {
   ],
   socialContent: [
     {
+      id: 'brand-focused',
+      title: 'Brand Focused',
+      description: 'Polished, brand-aligned social content built for campaign use.',
+      fullDescription: 'Polished, brand-aligned social content developed and produced for campaign use across platforms.',
+      deliverables: 'Brand content strategy, production, social campaign delivery',
+      category: 'Social Content',
+      images: [],
+    },
+    {
       id: 'ugc',
       title: 'UGC',
       description: 'Authentic user-generated style content and talking head videos.',
@@ -234,15 +243,6 @@ export const projectData = {
       description: 'On-the-ground event coverage and travel content.',
       fullDescription: 'On-the-ground event coverage and travel content captured and produced for social platforms.',
       deliverables: 'Event coverage, travel content, social-ready edits',
-      category: 'Social Content',
-      images: [],
-    },
-    {
-      id: 'brand-focused',
-      title: 'Brand Focused',
-      description: 'Polished, brand-aligned social content built for campaign use.',
-      fullDescription: 'Polished, brand-aligned social content developed and produced for campaign use across platforms.',
-      deliverables: 'Brand content strategy, production, social campaign delivery',
       category: 'Social Content',
       images: [],
     },
