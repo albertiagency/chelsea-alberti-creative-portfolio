@@ -22,7 +22,7 @@ export default function ProjectModal({ project, open, onClose }) {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl p-0 overflow-hidden bg-card">
         {/* Image gallery */}
-        <div className={`relative bg-muted overflow-hidden ${project.category === 'Apps & Web' ? 'aspect-video' : 'aspect-square'}`}>
+        <div className={`relative bg-muted overflow-hidden ${(project.category === 'Apps & Web' || project.category === 'Brand & Marketing') ? 'aspect-video' : 'aspect-square'}`}>
           <img
             key={imgIndex}
             src={images[imgIndex]}
