@@ -217,9 +217,11 @@ export const projectData = {
       ],
     },
   ],
-  ugcContent: [],
-  eventRecap: [],
-  brandContent: [],
+  socialContent: {
+    ugc: [],
+    eventRecap: [],
+    brandContent: [],
+  },
 };
 
 export const allProjects = [
@@ -227,9 +229,9 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
-  ...projectData.ugcContent,
-  ...projectData.eventRecap,
-  ...projectData.brandContent,
+  ...projectData.socialContent.ugc,
+  ...projectData.socialContent.eventRecap,
+  ...projectData.socialContent.brandContent,
 ];
 
 export const featuredProjects = [
