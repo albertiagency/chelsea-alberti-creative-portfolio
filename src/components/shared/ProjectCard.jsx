@@ -11,7 +11,7 @@ export default function ProjectCard({ project, onClick, index = 0 }) {
       className="group cursor-pointer"
       onClick={() => onClick?.(project)}
     >
-      <div className="overflow-hidden rounded-sm bg-muted aspect-video">
+      <div className="overflow-hidden rounded-sm bg-muted aspect-[4/3]">
         <img
           src={(project.images && project.images[0]) || project.image}
           alt={project.title}
