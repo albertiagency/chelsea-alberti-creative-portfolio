@@ -105,6 +105,7 @@ export const projectData = {
       deliverables: 'Product concept, sourcing, sampling, packaging design, brand identity, product styling',
       category: 'Product Development',
       images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/06f8f6e32_Screenshot2026-06-19at121815PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e3809c73e_IMG_6136.jpg',
 
       ],
