@@ -228,7 +228,6 @@ export const projectData = {
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/0642c97b4_Dog_Bag_Demo_text.mov',
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/50ba47094_FGV_PROMO_FINAL_GLITCH_SBS_wide.mp4',
-        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/ae4509643_v12044gd0000d5m5vbvog65t21objls0.MP4',
       ],
     },
     {
@@ -241,6 +240,7 @@ export const projectData = {
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/f63f45bcb_v12044gd0000d5e9s8vog65v4uvp07m0.MP4',
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/7e52565f4_v12044gd0000d4426knog65sflmt9n0g.MP4',
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/ae4509643_v12044gd0000d5m5vbvog65t21objls0.MP4',
       ],
     },
     {
