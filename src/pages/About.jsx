@@ -14,7 +14,7 @@ const journey = [
   {
     phase: 'Behind the Lens',
     label: 'Photography & Content Creation',
-    description: 'I moved into photography and content creation, where storytelling through imagery became my language. I was trusted for creative direction early — people liked my visual ideas, and I naturally found myself leading shoots and coordinating teams. That pull toward directing the bigger picture, not just shooting it, is what pushed me forward.',
+    description: 'I moved into photography, styling, and content creation, where storytelling through imagery became my language. I was trusted for creative direction early — people liked my visual ideas, and I naturally found myself leading shoots and coordinating teams. That pull toward directing the bigger picture, not just shooting it, is what pushed me forward.',
   },
   {
     phase: 'The Pivot',
@@ -142,13 +142,10 @@ export default function About() {
 
             <div className="mt-8 space-y-5 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
-                I'm a creative professional whose work sits at the intersection of visual thinking and operational execution — the person who can hold the creative vision and the production plan in their head at the same time, and keep both moving.
+                I'm a creative professional whose work sits at the intersection of visual thinking and operational execution — the person who can hold the creative vision and the production plan in their head at the same time, lead the team behind it, and keep everything moving.
               </p>
               <p>
-                My background spans commercial production, studio operations, brand development, product development, and digital design. Right now, my active client work is brand identity and marketing for small businesses — but I'm looking to bring that range inside a team, where I can do more than one thing at once and grow alongside people I respect.
-              </p>
-              <p>
-                I'm a natural collaborator. I care about how things look, how they run, and how people feel about working together. That combination is what people tend to remember most about working with me.
+                My background spans commercial production, studio operations, brand and marketing development, product development, events, and digital design. Right now, my active client work is brand identity and marketing for small businesses — but I'm looking to bring that range inside a team, where I can do more than one thing at once and grow into creative and marketing leadership alongside people I respect.
               </p>
             </div>
 
