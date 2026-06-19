@@ -30,8 +30,8 @@ export default function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link to="/" className="font-display text-lg lg:text-xl font-semibold tracking-tight transition-colors text-foreground hover:text-accent">
-            Chelsea Alberti
+          <Link to="/" className="font-display text-xl lg:text-2xl font-semibold tracking-widest transition-colors text-foreground hover:text-accent">
+            CA
           </Link>
 
           {/* Desktop nav */}
