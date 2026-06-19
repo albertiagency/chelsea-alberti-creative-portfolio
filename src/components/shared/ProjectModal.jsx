@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+function isVideoUrl(url) {
+  return /\.(mp4|webm|mov|avi|mkv)$/i.test(url);
+}
+
 function useImageOrientation(src) {
   const [isPortrait, setIsPortrait] = useState(false);
   useEffect(() => {
-    if (!src) return;
+    if (!src || isVideoUrl(src)) return;
     const img = new Image();
     img.onload = () => setIsPortrait(img.naturalHeight > img.naturalWidth);
     img.src = src;
@@ -36,14 +40,23 @@ export default function ProjectModal({ project, open, onClose }) {
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl w-[95vw] p-0 overflow-y-auto bg-card max-h-[92vh] rounded-sm flex flex-col">
-        {/* Image gallery */}
+        {/* Image/Video gallery */}
         <div className={`relative overflow-hidden w-full flex-shrink-0 ${aspectClass} ${bgClass}`}>
-          <img
-            key={imgIndex}
-            src={images[imgIndex]}
-            alt={project.title}
-            className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
-          />
+          {isVideoUrl(images[imgIndex]) ? (
+            <video
+              key={imgIndex}
+              src={images[imgIndex]}
+              controls
+              className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
+            />
+          ) : (
+            <img
+              key={imgIndex}
+              src={images[imgIndex]}
+              alt={project.title}
+              className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
+            />
+          )}
           {hasMultiple && (
             <>
               <button
