@@ -8,7 +8,6 @@ export const projectData = {
       deliverables: 'Logo, brand guidelines, business cards, yard signage, vehicle graphics, full website design & build',
       category: 'Brand & Marketing',
       images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a31e4ded0_generated_image.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/40feecaba_Screenshot2026-06-18at123209PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/df407bfde_Screenshot2026-06-18at21957PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/261ee1ef5_Screenshot2026-06-18at22851PM.png',
