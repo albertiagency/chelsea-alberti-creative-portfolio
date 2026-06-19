@@ -22,12 +22,12 @@ export default function ProjectModal({ project, open, onClose }) {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl w-[95vw] p-0 overflow-hidden overflow-y-auto bg-card max-h-[92vh] rounded-sm">
         {/* Image gallery */}
-        <div className={`relative bg-muted overflow-hidden flex-shrink-0 ${project.category === 'Apps & Web' ? 'aspect-video' : project.category === 'Brand & Marketing' ? 'aspect-[3/2]' : 'aspect-square'}`}>
+        <div className={`relative overflow-hidden flex-shrink-0 ${project.id === 'pitchd' ? 'bg-black aspect-[3/4]' : project.category === 'Apps & Web' ? 'bg-muted aspect-video' : project.category === 'Brand & Marketing' ? 'bg-muted aspect-[3/2]' : 'bg-muted aspect-square'}`}>
           <img
             key={imgIndex}
             src={images[imgIndex]}
             alt={project.title}
-            className="w-full h-full object-cover transition-opacity duration-300"
+            className={`w-full h-full transition-opacity duration-300 ${project.id === 'pitchd' ? 'object-contain' : 'object-cover'}`}
           />
           {hasMultiple && (
             <>
