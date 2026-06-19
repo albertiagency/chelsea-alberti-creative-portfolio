@@ -14,17 +14,17 @@ const journey = [
   {
     phase: 'Behind the Lens',
     label: 'Photography & Content Creation',
-    description: 'I moved into photography and content creation, where storytelling through imagery became my language. I was trusted for creative direction early — people liked my visual ideas, and I found myself naturally leading shoots and coordinating teams.',
+    description: 'I moved into photography and content creation, where storytelling through imagery became my language. I was trusted for creative direction early — people liked my visual ideas, and I naturally found myself leading shoots and coordinating teams. That pull toward directing the bigger picture, not just shooting it, is what pushed me forward.',
   },
   {
     phase: 'The Pivot',
     label: 'Creative Operations & Production',
-    description: 'My eye for visuals, combined with a knack for keeping complex projects organized, led me into production and operations roles. I became the person who could hold both the creative vision and the execution plan in my head at the same time — a combination not every team has.',
+    description: 'My eye for visuals, combined with a knack for keeping complex projects organized, led me into production, operations, and marketing roles. I became the person who could hold both the creative vision and the execution plan at once — a combination not every team has.',
   },
   {
     phase: 'The Builder',
     label: 'Brand Development, Products & Apps',
-    description: 'I started building things independently — consumer products from concept to shelf, apps from idea to launch, and brand identities for small business clients. My current freelance work is brand and marketing for growing businesses, and I\'m actively looking to bring that range inside a team I can grow with.',
+    description: "Today my focus is brand and marketing for small businesses — taking each client from story and strategy through finished, launched work: identity, websites, print, and the marketing that gets them seen. That comes out of a builder's instinct I've always had — developing product concepts, prototyping apps, and turning rough ideas into something real. I'm focused on bringing that full range, the strategy and the execution, into a team where I can grow into brand and marketing leadership.",
   },
 ];
 
@@ -56,9 +56,9 @@ const valueProps = [
   {
     title: 'Visual Content & Storytelling',
     items: [
-      'Shaping marketing visuals across digital and social platforms.',
+      'Shaping brand and marketing visuals across digital and social platforms.',
       'Visual storytelling through photography, campaigns, and brand imagery.',
-      'Supporting creative direction across shoots and content production.',
+      'Directing creative across shoots and content production.',
     ],
   },
 ];
