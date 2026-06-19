@@ -6,17 +6,20 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 py-12 lg:py-16">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-          <div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+          {/* Brand */}
+          <div className="col-span-2 md:col-span-1">
             <p className="font-display text-xl font-semibold">Chelsea Alberti</p>
             <p className="text-sm opacity-70 mt-1 font-body">Creative Production & Brand Marketing</p>
           </div>
-          <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 text-sm font-body">
+          {/* Nav */}
+          <div className="flex flex-col gap-3 text-sm font-body">
             <Link to="/" className="opacity-70 hover:opacity-100 transition-opacity">Home</Link>
             <Link to="/work" className="opacity-70 hover:opacity-100 transition-opacity">Work</Link>
             <Link to="/about" className="opacity-70 hover:opacity-100 transition-opacity">About</Link>
             <Link to="/contact" className="opacity-70 hover:opacity-100 transition-opacity">Contact</Link>
           </div>
+          {/* Contact */}
           <div className="text-sm font-body space-y-3">
             <p className="opacity-70">chelseaalberti@gmail.com</p>
             <p className="opacity-70">716-207-0518</p>
