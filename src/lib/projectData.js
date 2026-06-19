@@ -249,7 +249,9 @@ export const projectData = {
       fullDescription: 'Travel vlogs and event recaps capturing places visited, experiences explored, and events covered. From salon tours and restaurant visits to city guides and destination recaps.',
       deliverables: 'Travel content, event recaps, location guides, social-ready edits',
       category: 'Social Content',
-      images: [],
+      images: [
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/510be9320_EveryonehatesonSantaMonicabutifyoureupbeforethesunrisesitsactuallyquiteniceh.mp4',
+      ],
     },
   ],
 };
