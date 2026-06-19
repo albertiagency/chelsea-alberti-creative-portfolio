@@ -27,7 +27,7 @@ export default function IntroBand() {
               What I Do
             </p>
             <h2 className="font-display text-3xl lg:text-4xl font-semibold text-foreground mb-6">
-              Is your team hiring?
+              Where the idea meets finished product
             </h2>
             <div className="space-y-4 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
