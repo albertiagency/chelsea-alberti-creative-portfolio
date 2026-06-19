@@ -41,7 +41,7 @@ const valueProps = [
     title: 'Brand & Concept Development',
     items: [
       'Developing brand concepts, positioning, and visual direction.',
-      'Translating early ideas into cohesive campaigns, products, and brand assets.',
+      'Translating early ideas into cohesive prototypes or campaigns, products, and brand assets.',
       'Informing brand strategy through market research and competitive insight.',
     ],
   },
