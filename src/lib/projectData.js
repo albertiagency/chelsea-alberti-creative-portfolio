@@ -41,6 +41,18 @@ export const projectData = {
   ],
   appsDigital: [
     {
+      id: 'pitchd',
+      title: 'Pitchd',
+      description: 'A launched app for creators and entrepreneurs to pitch ideas and get structured, actionable feedback. Concept, brand, UX, and full build — mine start to finish.',
+      fullDescription: 'Pitchd is a live, launched app I built independently for creators and entrepreneurs to pitch their ideas and receive structured, actionable feedback. I owned the entire process: concept development, brand identity, UX/UI design, and the full build. Currently live and accepting users.',
+      deliverables: 'App concept, UX/UI design, brand identity, full build, launch',
+      category: 'Apps & Web',
+      images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
+      ],
+    },
+    {
       id: 'myco',
       title: 'MyCo',
       description: 'An original app I built — a community platform designed to connect people around shared interests and real-world circles. Led concept, branding, UX, and build.',
@@ -51,18 +63,6 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/969f0e9f5_Screenshot2026-06-18at20146PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d92e55c94_Screenshot2026-06-18at20035PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d9c37f2bf_Screenshot2026-06-18at20101PM.png',
-      ],
-    },
-    {
-      id: 'pitchd',
-      title: 'Pitchd',
-      description: 'A launched app for creators and entrepreneurs to pitch ideas and get structured, actionable feedback. Concept, brand, UX, and full build — mine start to finish.',
-      fullDescription: 'Pitchd is a live, launched app I built independently for creators and entrepreneurs to pitch their ideas and receive structured, actionable feedback. I owned the entire process: concept development, brand identity, UX/UI design, and the full build. Currently live and accepting users.',
-      deliverables: 'App concept, UX/UI design, brand identity, full build, launch',
-      category: 'Apps & Web',
-      images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/09d4a6042_generated_b6581ffe.png',
       ],
     },
     {
