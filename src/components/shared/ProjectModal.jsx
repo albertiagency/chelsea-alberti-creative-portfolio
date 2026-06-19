@@ -28,22 +28,11 @@ export default function ProjectModal({ project, open, onClose }) {
     if (!val) { setImgIndex(0); onClose(); }
   };
 
-  // Determine aspect ratio class
+  // All projects use 3:2 with object-contain so images fully fit without cropping
   const isPitchd = project.id === 'pitchd';
-  const aspectClass = isPitchd
-    ? 'aspect-[3/4]'
-    : project.category === 'Apps & Web'
-    ? 'aspect-video'
-    : project.category === 'Brand & Marketing'
-    ? 'aspect-[3/2]'
-    : project.category === 'Creative Production'
-    ? 'aspect-[3/2]'
-    : 'aspect-square';
-
-  // Portrait images get white bg + contain; Creative Production uses contain to show full image
-  const isCreativeProduction = project.category === 'Creative Production';
-  const bgClass = isPitchd ? 'bg-black' : (isPortrait || isCreativeProduction) ? 'bg-white' : 'bg-muted';
-  const fitClass = isPitchd || isPortrait || isCreativeProduction ? 'object-contain' : 'object-cover';
+  const aspectClass = isPitchd ? 'aspect-[3/4]' : project.category === 'Apps & Web' ? 'aspect-video' : 'aspect-[3/2]';
+  const bgClass = 'bg-white';
+  const fitClass = 'object-contain';
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
