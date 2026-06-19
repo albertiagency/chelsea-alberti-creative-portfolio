@@ -15,7 +15,7 @@ export default function ProjectCard({ project, onClick, index = 0 }) {
         <img
           src={(project.images && project.images[0]) || project.image}
           alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
         />
       </div>
       <div className="mt-4">
