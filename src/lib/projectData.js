@@ -233,9 +233,9 @@ export const projectData = {
     {
       id: 'ugc',
       title: 'UGC',
-      description: 'Authentic user-generated style content and talking head videos.',
-      fullDescription: 'Authentic user-generated style content and talking head videos created for brand campaigns.',
-      deliverables: 'UGC video production, talking head content, brand integration',
+      description: 'User-generated content across formats — unboxings, reviews, talking heads, yap sessions, and authentic brand integrations.',
+      fullDescription: 'User-generated content produced across multiple formats including unboxings, product reviews, talking head segments, casual yap sessions, and authentic brand integrations. Authentic, conversational content created for social campaigns.',
+      deliverables: 'UGC video production, unboxings, reviews, talking head content, brand integration',
       category: 'Social Content',
       images: [
         'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/f63f45bcb_v12044gd0000d5e9s8vog65v4uvp07m0.MP4',
