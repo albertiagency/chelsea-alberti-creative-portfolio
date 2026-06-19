@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
 
       {/* Text content — top left */}
-      <div className="relative z-10 px-6 lg:px-16 pt-36 pb-20 max-w-3xl self-start">
+      <div className="relative z-10 px-6 lg:px-10 pt-36 pb-20 max-w-3xl self-start">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
