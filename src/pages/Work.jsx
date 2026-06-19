@@ -33,10 +33,22 @@ export default function Work() {
       projects: projectData.productDevelopment,
     },
     {
-      label: 'Social Content',
-      title: 'Social Content',
-      description: 'Social content across formats — UGC and talking head, event recaps, and brand-focused campaigns.',
-      projects: projectData.socialContent,
+      label: 'UGC',
+      title: 'UGC',
+      description: 'Authentic user-generated style content and talking head videos.',
+      projects: projectData.socialUGC,
+    },
+    {
+      label: 'Event / Travel',
+      title: 'Event / Travel',
+      description: 'On-the-ground event coverage and travel content.',
+      projects: projectData.socialEventTravel,
+    },
+    {
+      label: 'Brand Focused',
+      title: 'Brand Focused',
+      description: 'Polished, brand-aligned social content built for campaign use.',
+      projects: projectData.socialBrandFocused,
     },
   ];
 

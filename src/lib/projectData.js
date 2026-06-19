@@ -218,7 +218,9 @@ export const projectData = {
       ],
     },
   ],
-  socialContent: [],
+  socialUGC: [],
+  socialEventTravel: [],
+  socialBrandFocused: [],
 };
 
 export const allProjects = [
@@ -226,7 +228,9 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
-  ...projectData.socialContent,
+  ...projectData.socialUGC,
+  ...projectData.socialEventTravel,
+  ...projectData.socialBrandFocused,
 ];
 
 export const featuredProjects = [
