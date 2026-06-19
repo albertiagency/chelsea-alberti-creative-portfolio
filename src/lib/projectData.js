@@ -193,6 +193,7 @@ export const projectData = {
       deliverables: 'Video production, shoot logistics, crew coordination, on-set production management',
       category: 'Creative Production',
       images: [
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7dcfe119d_Screenshot2026-06-19at122219PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d7b3794ae_IMG_2197.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5c0b96de4_Screenshot2026-06-19at110813AM.png',
       ],
