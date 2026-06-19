@@ -226,7 +226,9 @@ export const projectData = {
       fullDescription: 'Polished, brand-aligned social content developed and produced for campaign use across platforms.',
       deliverables: 'Brand content strategy, production, social campaign delivery',
       category: 'Social Content',
-      images: [],
+      images: [
+        'https://media.base44.com/videos/public/6a3416a0b2d81e218daa4cbb/0642c97b4_Dog_Bag_Demo_text.mov',
+      ],
     },
     {
       id: 'ugc',
