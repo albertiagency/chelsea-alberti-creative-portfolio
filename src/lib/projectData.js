@@ -217,19 +217,9 @@ export const projectData = {
       ],
     },
   ],
-  socialContent: [
-    {
-      id: 'social-example-1',
-      title: 'Social Content',
-      description: 'Social content examples — upload your images here.',
-      fullDescription: 'Social content examples.',
-      deliverables: 'Social content',
-      category: 'Social Content',
-      images: [
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/729016485_generated_a15b092e.png',
-      ],
-    },
-  ],
+  ugcContent: [],
+  eventRecap: [],
+  brandContent: [],
 };
 
 export const allProjects = [
@@ -237,7 +227,9 @@ export const allProjects = [
   ...projectData.appsDigital,
   ...projectData.productDevelopment,
   ...projectData.creativeProduction,
-  ...projectData.socialContent,
+  ...projectData.ugcContent,
+  ...projectData.eventRecap,
+  ...projectData.brandContent,
 ];
 
 export const featuredProjects = [

@@ -33,10 +33,22 @@ export default function Work() {
       projects: projectData.productDevelopment,
     },
     {
-      label: 'Social Content',
-      title: 'Social Content',
-      description: 'Social content examples across platforms — campaigns, organic posts, and branded content.',
-      projects: projectData.socialContent,
+      label: 'UGC & Talking Head',
+      title: 'UGC & Talking Head',
+      description: 'User-generated style content — talking head videos, product demos, and authentic on-camera content for social platforms.',
+      projects: projectData.ugcContent,
+    },
+    {
+      label: 'Event Recap',
+      title: 'Event Recap',
+      description: 'Event coverage and recap content — capturing the energy, moments, and story of live experiences.',
+      projects: projectData.eventRecap,
+    },
+    {
+      label: 'Brand Content',
+      title: 'Brand Content',
+      description: 'Brand-focused social content — polished, on-brand visuals and campaigns designed to build and reinforce a brand\'s visual identity.',
+      projects: projectData.brandContent,
     },
   ];
 
