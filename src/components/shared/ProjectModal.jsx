@@ -1,33 +1,57 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+function useImageOrientation(src) {
+  const [isPortrait, setIsPortrait] = useState(false);
+  useEffect(() => {
+    if (!src) return;
+    const img = new Image();
+    img.onload = () => setIsPortrait(img.naturalHeight > img.naturalWidth);
+    img.src = src;
+  }, [src]);
+  return isPortrait;
+}
+
 export default function ProjectModal({ project, open, onClose }) {
   const [imgIndex, setImgIndex] = useState(0);
+  const images = project ? (project.images || [project.image].filter(Boolean)) : [];
+  const isPortrait = useImageOrientation(images[imgIndex]);
 
   if (!project) return null;
 
-  const images = project.images || [project.image].filter(Boolean);
   const hasMultiple = images.length > 1;
-
   const prev = () => setImgIndex((i) => (i - 1 + images.length) % images.length);
   const next = () => setImgIndex((i) => (i + 1) % images.length);
 
-  // Reset index when project changes
   const handleOpenChange = (val) => {
     if (!val) { setImgIndex(0); onClose(); }
   };
+
+  // Determine aspect ratio class
+  const isPitchd = project.id === 'pitchd';
+  const aspectClass = isPitchd
+    ? 'aspect-[3/4]'
+    : project.category === 'Apps & Web'
+    ? 'aspect-video'
+    : project.category === 'Brand & Marketing'
+    ? 'aspect-[3/2]'
+    : 'aspect-square';
+
+  // Portrait images get white bg + contain, landscape get cover
+  const bgClass = isPitchd ? 'bg-black' : isPortrait ? 'bg-white' : 'bg-muted';
+  const fitClass = isPitchd || isPortrait ? 'object-contain' : 'object-cover';
 
   return (
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent className="max-w-3xl w-[95vw] p-0 overflow-hidden overflow-y-auto bg-card max-h-[92vh] rounded-sm">
         {/* Image gallery */}
-        <div className={`relative overflow-hidden flex-shrink-0 ${project.id === 'pitchd' ? 'bg-black aspect-[3/4]' : project.category === 'Apps & Web' ? 'bg-muted aspect-video' : project.category === 'Brand & Marketing' ? 'bg-muted aspect-[3/2]' : 'bg-muted aspect-square'}`}>
+        <div className={`relative overflow-hidden flex-shrink-0 ${aspectClass} ${bgClass}`}>
           <img
             key={imgIndex}
             src={images[imgIndex]}
             alt={project.title}
-            className={`w-full h-full transition-opacity duration-300 ${project.id === 'pitchd' ? 'object-contain' : 'object-cover'}`}
+            className={`w-full h-full transition-opacity duration-300 ${fitClass}`}
           />
           {hasMultiple && (
             <>
@@ -43,7 +67,6 @@ export default function ProjectModal({ project, open, onClose }) {
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
-              {/* Dot indicators */}
               <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
                 {images.map((_, i) => (
                   <button
