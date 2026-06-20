@@ -59,8 +59,8 @@ export const projectData = {
     {
       id: 'myco',
       title: 'MyCo',
-      description: 'An original app I built — a community platform designed to connect people around shared interests and real-world circles. Led concept, branding, UX, and build.',
-      fullDescription: 'MyCo is an original app concept I developed independently. I led everything from the initial concept and brand identity to UX design, interface build, and launch. The app is built around the idea that belonging starts in communities — connecting people through shared interests, depth, and real-world circles, not endless feeds.',
+      description: 'A community social platform prototype designed to connect people around shared interests and real-world circles. Led concept, branding, UX design.',
+      fullDescription: 'A community social platform prototype designed to connect people around shared interests and real-world circles. Led concept, branding, UX design.',
       deliverables: 'App concept, brand identity, UX/UI design, build, launch — joinmyco.com',
       category: 'Apps & Web',
       images: [
