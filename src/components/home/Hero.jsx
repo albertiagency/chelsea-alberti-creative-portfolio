@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
 
       {/* Text content — top left */}
-      <div className="relative z-10 w-full px-6 lg:px-10 pt-28 sm:pt-32 lg:pt-36 pb-16 sm:pb-20">
+      <div className="relative z-10 w-full px-6 lg:px-10 pt-36 sm:pt-36 lg:pt-40 pb-16 sm:pb-20">
         <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl">
         <motion.p
