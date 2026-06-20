@@ -116,7 +116,7 @@ export default function ProjectModal({ project, open, onClose }) {
           </div>
         )}
 
-        <div className="p-5 lg:p-8 pt-4">
+        <div className="p-4 lg:p-8 pt-3">
           <DialogHeader>
             <DialogTitle className="font-display text-2xl font-semibold">{project.title}</DialogTitle>
             {project.category && (

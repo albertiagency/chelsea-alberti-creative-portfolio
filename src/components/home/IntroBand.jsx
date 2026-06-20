@@ -58,7 +58,7 @@ export default function IntroBand() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="grid grid-cols-2 gap-2"
+            className="grid grid-cols-2 gap-2 max-h-[520px] lg:max-h-none overflow-hidden"
           >
             <div className="flex flex-col gap-2">
               {COLLAGE_IMAGES.slice(0, 3).map((src, i) => (

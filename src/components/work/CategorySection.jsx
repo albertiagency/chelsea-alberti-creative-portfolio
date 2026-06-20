@@ -4,7 +4,7 @@ import ProjectCard from '@/components/shared/ProjectCard';
 
 export default function CategorySection({ label, title, description, projects, onProjectClick }) {
   return (
-    <div className="py-16 lg:py-20">
+    <div className="py-10 lg:py-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

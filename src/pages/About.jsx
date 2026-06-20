@@ -126,7 +126,7 @@ export default function About() {
             transition={{ duration: 0.7 }}
             className="lg:col-span-2"
           >
-            <div className="aspect-[3/4] rounded-sm overflow-hidden sticky top-28">
+            <div className="aspect-[3/4] max-h-[60vh] lg:max-h-none rounded-sm overflow-hidden sticky top-28">
               <img src={ABOUT_PORTRAIT} alt="Chelsea Alberti" className="w-full h-full object-cover" />
             </div>
           </motion.div>
