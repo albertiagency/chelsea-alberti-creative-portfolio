@@ -33,35 +33,42 @@ export default function Timeline() {
       const positions = cardRefs.current.map((ref) => {
         if (ref) {
           const rect = ref.getBoundingClientRect();
-          const parentRect = ref.parentElement.getBoundingClientRect();
-          return rect.top - parentRect.top + 6; // 6px to center the 12px dot
+          const parentRect = ref.parentElement.parentElement.getBoundingClientRect();
+          return rect.top - parentRect.top + 12; // Center of 24px dot
         }
         return 0;
       });
       setDotPositions(positions);
     };
 
-    calculatePositions();
+    // Calculate after a short delay to ensure layout is complete
+    const timer = setTimeout(calculatePositions, 100);
     window.addEventListener('resize', calculatePositions);
-    return () => window.removeEventListener('resize', calculatePositions);
+    
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('resize', calculatePositions);
+    };
   }, []);
 
   return (
     <div className="relative">
       {/* Vertical center line */}
-      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-border" />
+      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
       
       {/* Mobile left line */}
-      <div className="lg:hidden absolute left-4 top-0 bottom-0 w-px bg-border" />
+      <div className="lg:hidden absolute left-4 top-0 bottom-0 w-0.5 bg-border" />
 
-      {/* Dots on the line - positioned by measuring cards */}
-      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 w-3 h-full pointer-events-none">
+      {/* Numbered dots on the line */}
+      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 w-6 h-full pointer-events-none">
         {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
-            className="absolute w-3 h-3 rounded-full bg-accent border-2 border-card -left-1.5 transition-all"
-            style={{ top: `${top}px` }}
-          />
+            className="absolute w-6 h-6 rounded-full bg-foreground border-4 border-card -left-3 flex items-center justify-center text-xs font-body font-bold text-card transition-all"
+            style={{ top: `${top}px`, transform: 'translateY(-50%)' }}
+          >
+            {i + 1}
+          </div>
         ))}
       </div>
 
