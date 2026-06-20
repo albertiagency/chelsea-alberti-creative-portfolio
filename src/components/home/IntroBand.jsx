@@ -9,7 +9,7 @@ const COLLAGE_IMAGES = [
   // Column 2 (top to bottom)
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d7649deef_Screenshot2026-06-20at13354PM.png',
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d73cb6fc0_Screenshot2026-06-18at112513PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/82638b7d4_Screenshot2026-06-18at112636PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/bf60e17ff_20250914_Chelsea_Studio_53.jpg',
 ];
 
 export default function IntroBand() {
