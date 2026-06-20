@@ -53,11 +53,11 @@ export default function Timeline() {
 
   return (
     <div className="relative">
-      {/* Vertical center line */}
-      <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
+      {/* Vertical center line (desktop) / left line (mobile) */}
+      <div className="absolute lg:left-1/2 left-6 lg:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
 
-      {/* Numbered dots on the line */}
-      <div className="absolute left-1/2 -translate-x-1/2 top-0 w-6 h-full pointer-events-none">
+      {/* Dots on the line */}
+      <div className="absolute lg:left-1/2 left-6 lg:-translate-x-1/2 top-0 w-6 h-full pointer-events-none">
         {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
@@ -79,8 +79,8 @@ export default function Timeline() {
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className={`${
               i % 2 === 0
-                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full px-6 text-center'
-                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full px-6 text-center'
+                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full lg:px-0 pl-16 lg:text-right text-left'
+                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full lg:px-0 pl-16 lg:text-left text-left'
             }`}
           >
             {/* Content */}
