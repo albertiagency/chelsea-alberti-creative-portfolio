@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-xs font-body font-semibold tracking-[0.25em] uppercase text-white/60 mb-5"
         >
-          Creative Production & Brand Marketing
+          Creative Production &<br className="sm:hidden" /> Brand Marketing
         </motion.p>
 
         <motion.h1
