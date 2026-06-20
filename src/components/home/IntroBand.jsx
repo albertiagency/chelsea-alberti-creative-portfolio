@@ -58,18 +58,18 @@ export default function IntroBand() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="grid grid-cols-2 gap-2 h-[600px] sm:h-[700px] lg:h-auto overflow-hidden"
+            className="grid grid-cols-2 gap-2"
           >
-            <div className="flex flex-col gap-2 flex-1 min-h-0">
+            <div className="flex flex-col gap-2">
               {COLLAGE_IMAGES.slice(0, 3).map((src, i) => (
-                <div key={i} className="flex-1 min-h-0 rounded-sm overflow-hidden">
+                <div key={i} className="aspect-[2/3] rounded-sm overflow-hidden">
                   <img src={src} alt="" className="w-full h-full object-cover" />
                 </div>
               ))}
             </div>
-            <div className="flex flex-col gap-2 flex-1 min-h-0 mt-6">
+            <div className="flex flex-col gap-2 mt-8">
               {COLLAGE_IMAGES.slice(3).map((src, i) => (
-                <div key={i} className="flex-1 min-h-0 rounded-sm overflow-hidden">
+                <div key={i} className="aspect-[2/3] rounded-sm overflow-hidden">
                   <img src={src} alt="" className="w-full h-full object-cover" />
                 </div>
               ))}
