@@ -28,7 +28,7 @@ export default function Timeline() {
   return (
     <div className="relative">
       {/* Desktop grid layout with line + dots locked in center column */}
-      <div className="hidden lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-8 lg:items-start">
+      <div className="hidden lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-8 lg:items-baseline">
         {/* Vertical line running down the center */}
         <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2" />
 
@@ -93,7 +93,7 @@ export default function Timeline() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="relative"
             >
-              <div className="absolute -left-8 top-1.5 w-3 h-3 rounded-full bg-accent" />
+              <div className="absolute -left-8 top-0.5 w-3 h-3 rounded-full bg-accent" />
               <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
               <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
               <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
