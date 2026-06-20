@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const COLLAGE_IMAGES = [
   // Column 1 (top to bottom)
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6c5924ffb_Screenshot2026-06-19at123944PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5a101d1ae_20250914_ChelseaGoldenHour_6.jpg',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d03c1bd10_20250914_ChelseaGoldenHour_4.jpg',
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f792448f1_Screenshot2026-06-18at112554PM.png',
   // Column 2 (top to bottom)
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f8b141180_Screenshot2026-06-19at125143PM.png',
