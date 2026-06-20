@@ -27,38 +27,79 @@ const timeline = [
 export default function Timeline() {
   return (
     <div className="relative">
-      {/* Vertical line - desktop center, mobile left */}
-      <div className="absolute lg:left-1/2 left-1.5 lg:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
+      {/* Desktop grid layout with line + dots locked in center column */}
+      <div className="hidden lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-8 lg:items-start">
+        {/* Vertical line running down the center */}
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2" />
 
-      {/* Timeline items */}
-      <div className="space-y-12">
         {timeline.map((item, i) => (
-          <motion.div
-            key={item.phase}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
-            className={`relative ${
-              i % 2 === 0
-                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full pl-16 text-left'
-                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full pl-16 text-left'
-            }`}
-          >
-            {/* Dot - positioned relative to card on mobile, absolute on desktop */}
-            <div className="absolute lg:hidden left-0 top-1.5 w-3 h-3 rounded-full bg-accent" />
-            <div className="hidden lg:block absolute top-1.5 w-3 h-3 rounded-full bg-accent"
-              style={{
-                left: i % 2 === 0 ? 'calc(100% + 12px)' : 'calc(-16px)',
-              }}
+          <React.Fragment key={item.phase}>
+            {/* Left side (even items) */}
+            {i % 2 === 0 ? (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="text-right pr-4"
+              >
+                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
+                <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
+                <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
+              </motion.div>
+            ) : (
+              <div />
+            )}
+
+            {/* Center column: dot only */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: i * 0.1 }}
+              className="w-3 h-3 rounded-full bg-accent"
             />
 
-            {/* Content */}
-            <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
-            <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
-            <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
-          </motion.div>
+            {/* Right side (odd items) */}
+            {i % 2 === 1 ? (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="text-left pl-4"
+              >
+                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
+                <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
+                <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
+              </motion.div>
+            ) : (
+              <div />
+            )}
+          </React.Fragment>
         ))}
+      </div>
+
+      {/* Mobile layout: single column with line on left */}
+      <div className="lg:hidden relative pl-8">
+        <div className="absolute left-1.5 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2" />
+        <div className="space-y-12">
+          {timeline.map((item, i) => (
+            <motion.div
+              key={item.phase}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="relative"
+            >
+              <div className="absolute -left-8 top-1.5 w-3 h-3 rounded-full bg-accent" />
+              <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
+              <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
+              <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </div>
   );
