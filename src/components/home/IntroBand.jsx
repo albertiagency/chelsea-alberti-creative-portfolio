@@ -67,7 +67,7 @@ export default function IntroBand() {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col gap-2 mt-8">
+            <div className="flex flex-col gap-2">
               {COLLAGE_IMAGES.slice(3).map((src, i) => (
                 <div key={i} className="aspect-[2/3] rounded-sm overflow-hidden">
                   <img src={src} alt="" className="w-full h-full object-cover" />
