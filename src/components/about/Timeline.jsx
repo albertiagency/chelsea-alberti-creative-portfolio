@@ -47,10 +47,7 @@ export default function Timeline() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="text-right pr-4"
               >
-                <div className="flex items-center justify-end gap-3">
-                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
-                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.year} →</span>
-                </div>
+                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase} {item.year} →</span>
                 <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
                 <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
               </motion.div>
@@ -76,10 +73,7 @@ export default function Timeline() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="text-left pl-4"
               >
-                <div className="flex items-center gap-3">
-                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
-                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">→ {item.year}</span>
-                </div>
+                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">→ {item.year} {item.phase}</span>
                 <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
                 <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
               </motion.div>
@@ -104,10 +98,7 @@ export default function Timeline() {
               className="relative"
             >
               <div className="absolute -left-8 top-0.5 w-3 h-3 rounded-full bg-accent" />
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
-                <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.year} →</span>
-              </div>
+              <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase} {item.year} →</span>
               <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
               <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
             </motion.div>
