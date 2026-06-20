@@ -117,8 +117,8 @@ export const projectData = {
     {
       id: 'gabes-production',
       title: "Gabes",
-      description: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
-      fullDescription: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
+      description: "Large-scale e-commerce campaign production for a major retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample management, and creative direction.",
+      fullDescription: "Large-scale e-commerce campaign production for a major retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample management, and creative direction.",
       deliverables: 'Shoot logistics, location scouting, prop & sample coordination, sample tracking, creative direction, campaign delivery',
       clientLogo: 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/80b57e179_Screenshot2025-03-01at11446PM.png',
       studioCredit: 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7117518b6_Screenshot2025-03-03at22217PM.png',
