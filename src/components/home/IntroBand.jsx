@@ -5,7 +5,7 @@ const COLLAGE_IMAGES = [
   // Column 1 (top to bottom)
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6c5924ffb_Screenshot2026-06-19at123944PM.png',
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3318e4d1d_Screenshot2026-06-20at12423PM.png',
-  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f792448f1_Screenshot2026-06-18at112554PM.png',
+  'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e12b30730_meeting.png',
   // Column 2 (top to bottom)
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f8b141180_Screenshot2026-06-19at125143PM.png',
   'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/6f224be70_Screenshot2026-06-18at112513PM.png',
