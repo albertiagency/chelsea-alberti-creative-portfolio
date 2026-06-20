@@ -77,10 +77,12 @@ export default function Timeline() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className={`${
+            className="ml-auto w-1/2 pl-16 text-left lg:text-right lg:pr-16 lg:pl-0 lg:ml-0 lg:mr-auto lg:w-auto"
+            style={i % 2 === 0 ? { width: '50%', marginLeft: 'auto' } : {}}
+            className={`ml-auto w-1/2 pl-16 text-left ${
               i % 2 === 0
-                ? 'mr-auto w-1/2 pr-16 text-right'
-                : 'ml-auto w-1/2 pl-16 text-left'
+                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:pl-0 lg:text-right'
+                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left'
             }`}
           >
             {/* Content */}
