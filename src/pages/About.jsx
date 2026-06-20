@@ -175,21 +175,32 @@ export default function About() {
           </motion.div>
 
           <div className="relative">
-            {/* Vertical line */}
-            <div className="absolute left-4 lg:left-6 top-0 bottom-0 w-px bg-border" />
+            {/* Vertical line - hidden on mobile */}
+            <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-border" />
+            
+            {/* Mobile vertical line */}
+            <div className="lg:hidden absolute left-4 top-0 bottom-0 w-px bg-border" />
 
-            <div className="space-y-8 lg:space-y-10">
+            <div className="space-y-8 lg:space-y-12">
               {journey.map((step, i) => (
                 <motion.div
                   key={step.phase}
-                  initial={{ opacity: 0, x: -20 }}
+                  initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="relative pl-12 lg:pl-16"
+                  className={`relative ${
+                    i % 2 === 0
+                      ? 'lg:pr-1/2 lg:mr-auto lg:w-1/2 lg:text-right pl-12 lg:pl-0 lg:pr-16'
+                      : 'lg:pl-1/2 lg:ml-auto lg:w-1/2 lg:text-left pl-12 lg:pl-16'
+                  }`}
                 >
                   {/* Dot on the line */}
-                  <div className="absolute left-[11px] lg:left-[19px] top-1.5 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0" />
+                  <div className={`absolute top-1.5 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 ${
+                    i % 2 === 0
+                      ? 'left-[11px] lg:left-auto lg:right-[-18px]'
+                      : 'left-[11px] lg:left-[-18px]'
+                  }`} />
                   <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{step.phase}</span>
                   <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{step.label}</h3>
                   <p className="text-sm font-body text-muted-foreground leading-relaxed">{step.description}</p>
