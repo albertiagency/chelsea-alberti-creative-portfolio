@@ -175,11 +175,8 @@ export default function About() {
           </motion.div>
 
           <div className="relative">
-            {/* Vertical line - hidden on mobile */}
-            <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-px bg-border" />
-            
-            {/* Mobile vertical line */}
-            <div className="lg:hidden absolute left-4 top-0 bottom-0 w-px bg-border" />
+            {/* Vertical line */}
+            <div className="absolute left-4 lg:left-1/2 lg:-translate-x-1/2 top-0 bottom-0 w-px bg-border" />
 
             <div className="space-y-8 lg:space-y-12">
               {journey.map((step, i) => (
