@@ -57,7 +57,7 @@ export default function Timeline() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.1 }}
-              className="w-3 h-3 rounded-full bg-accent"
+              className="w-3 h-3 rounded-full bg-accent relative z-10"
             />
 
             {/* Right side (odd items) */}
