@@ -128,11 +128,15 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d598eb895_Screenshot2026-06-18at12814PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a8026f738_Screenshot2026-06-19at122514PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/02afb6b40_Screenshot2026-06-19at123208PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/e7888e34c_Screenshot2026-06-19at123407PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ee441a5bb_Screenshot2025-02-24at60137PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8fe87471f_Screenshot2026-06-18at102733PM.png',
+
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/04e7eb810_Screenshot2025-02-23at61400PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ecf2145dc_Screenshot2026-06-19at121714PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/892e63672_Screenshot2026-06-18at112440PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c8cc5c6ad_Screenshot2026-06-18at112434PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/32e1f15c6_Screenshot2026-06-18at112421PM.png',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/4b1992982_Screenshot2026-06-19at124126PM.png',
       ],
     },
@@ -175,7 +179,6 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3836bb182_ECOM_7900-11-OUTSIDE9.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f620f49da_1626-69_PROPPED-GROUPJavoStudiossconflictedcopy2019-04-06.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a54cd62d3_SM-2925BK_A_CAR-PHONE-HOLDER-PROPPED.jpg',
-        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c117ac831_1627-04_PROPPED-BACKJavoStudiossconflictedcopy2019-04-06.jpg',
       ],
     },
     {
