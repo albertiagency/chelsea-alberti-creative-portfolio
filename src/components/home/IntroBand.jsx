@@ -41,7 +41,7 @@ export default function IntroBand() {
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
                 'Brand & Marketing',
-                'Creative Production & Execution',
+                'Creative Production & Events',
                 'Creative Direction & Styling',
                 'Social & Content',
                 'Product Development',
