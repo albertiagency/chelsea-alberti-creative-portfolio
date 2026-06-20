@@ -61,8 +61,8 @@ export default function Timeline() {
         {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
-            className="absolute w-6 h-6 rounded-full bg-foreground border-4 border-card -left-3 flex items-center justify-center text-xs font-body font-bold text-card transition-all"
-            style={{ top: `${top}px`, transform: 'translateY(-50%)' }}
+            className="absolute w-6 h-6 rounded-full bg-foreground border-4 border-card flex items-center justify-center text-xs font-body font-bold text-card transition-all"
+            style={{ top: `${top}px`, left: '50%', transform: 'translate(-50%, -50%)' }}
           >
             {i + 1}
           </div>
