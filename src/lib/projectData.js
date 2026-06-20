@@ -120,6 +120,7 @@ export const projectData = {
       description: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
       fullDescription: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
       deliverables: 'Shoot logistics, location scouting, prop & sample coordination, sample tracking, creative direction, campaign delivery',
+      studioCredit: 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7117518b6_Screenshot2025-03-03at22217PM.png',
       website: 'https://gabesstores.com',
       category: 'Creative Production',
       images: [
@@ -144,6 +145,7 @@ export const projectData = {
       description: 'Campaign and social content production for a women-owned home goods brand. Shoot logistics, product styling, and on-set direction across multiple shoots.',
       fullDescription: 'Campaign and social content production for a women-owned home goods brand. Shoot logistics, product styling, and on-set direction across multiple shoots.',
       deliverables: 'Shoot logistics, product styling, on-set direction, campaign imagery delivery',
+      studioCredit: 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7117518b6_Screenshot2025-03-03at22217PM.png',
       website: 'https://safraneveryday.com',
       category: 'Creative Production',
       images: [
@@ -163,6 +165,7 @@ export const projectData = {
       description: 'High-volume e-commerce product photography for a promotional products brand — recurring shoots across a large product catalog. Product styling, shoot logistics, and product tracking and organization.',
       fullDescription: 'High-volume e-commerce product photography for a promotional products brand — recurring shoots across a large product catalog. Product styling, shoot logistics, and product tracking and organization.',
       deliverables: 'Product styling, shoot logistics, product tracking & organization, catalog imagery delivery',
+      studioCredit: 'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/7117518b6_Screenshot2025-03-03at22217PM.png',
       website: 'https://www.pcna.com',
       category: 'Creative Production',
       images: [
