@@ -79,8 +79,8 @@ export default function Timeline() {
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className={`${
               i % 2 === 0
-                ? 'mr-auto w-1/2 pr-16 text-right'
-                : 'ml-auto w-1/2 pl-16 text-left'
+                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full px-6 text-center'
+                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full px-6 text-center'
             }`}
           >
             {/* Content */}
