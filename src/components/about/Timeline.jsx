@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const timeline = [
@@ -25,64 +25,34 @@ const timeline = [
 ];
 
 export default function Timeline() {
-  const cardRefs = useRef([]);
-  const [dotPositions, setDotPositions] = useState([]);
-
-  useEffect(() => {
-    const calculatePositions = () => {
-      const positions = cardRefs.current.map((ref) => {
-        if (ref) {
-          const rect = ref.getBoundingClientRect();
-          const parentRect = ref.parentElement.parentElement.getBoundingClientRect();
-          return rect.top - parentRect.top + 6; // Center of 12px dot
-        }
-        return 0;
-      });
-      setDotPositions(positions);
-    };
-
-    // Calculate after a short delay to ensure layout is complete
-    const timer = setTimeout(calculatePositions, 100);
-    window.addEventListener('resize', calculatePositions);
-    
-    return () => {
-      clearTimeout(timer);
-      window.removeEventListener('resize', calculatePositions);
-    };
-  }, []);
-
   return (
     <div className="relative">
-      {/* Vertical center line (desktop) / left line (mobile) */}
+      {/* Vertical line - desktop center, mobile left */}
       <div className="absolute lg:left-1/2 left-6 lg:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
 
-      {/* Dots on the line */}
-      <div className="absolute lg:left-1/2 left-6 lg:-translate-x-1/2 top-0 w-6 h-full pointer-events-none">
-        {dotPositions.map((top, i) => (
-          <div
-            key={`dot-${i}`}
-            className="absolute w-3 h-3 rounded-full bg-accent transition-all"
-            style={{ top: `${top}px`, left: '50%', transform: 'translate(-50%, -50%)' }}
-          />
-        ))}
-      </div>
-
-      {/* Cards container */}
+      {/* Timeline items */}
       <div className="space-y-12">
         {timeline.map((item, i) => (
           <motion.div
             key={item.phase}
-            ref={(el) => (cardRefs.current[i] = el)}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className={`${
+            className={`relative ${
               i % 2 === 0
-                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full lg:px-0 pl-16 lg:text-right text-left'
-                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full lg:px-0 pl-16 lg:text-left text-left'
+                ? 'lg:mr-auto lg:w-1/2 lg:pr-16 lg:text-right w-full pl-16 text-left'
+                : 'lg:ml-auto lg:w-1/2 lg:pl-16 lg:text-left w-full pl-16 text-left'
             }`}
           >
+            {/* Dot - positioned relative to card on mobile, absolute on desktop */}
+            <div className="absolute lg:hidden -left-3 top-1.5 w-3 h-3 rounded-full bg-accent" />
+            <div className="hidden lg:block absolute top-1.5 w-3 h-3 rounded-full bg-accent"
+              style={{
+                left: i % 2 === 0 ? 'calc(100% + 12px)' : 'calc(-16px)',
+              }}
+            />
+
             {/* Content */}
             <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
             <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
