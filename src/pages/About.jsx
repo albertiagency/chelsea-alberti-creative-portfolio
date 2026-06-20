@@ -196,7 +196,7 @@ export default function About() {
                   }`}
                 >
                   {/* Dot on the line */}
-                  <div className="absolute top-1.5 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 left-[11px] lg:left-1/2 lg:-translate-x-[7px]" />
+                  <div className="absolute top-1 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 left-[11px] lg:left-1/2 lg:-translate-x-1/2" />
                   <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{step.phase}</span>
                   <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{step.label}</h3>
                   <p className="text-sm font-body text-muted-foreground leading-relaxed">{step.description}</p>
