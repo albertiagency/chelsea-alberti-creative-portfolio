@@ -118,9 +118,9 @@ export const projectData = {
     {
       id: 'gabes-production',
       title: "Gabes",
-      description: "Large-scale e-commerce campaign production — shoot logistics, location scouting, talent direction, prop & sample coordination, and creative direction for seasonal campaigns.",
-      fullDescription: "Coordinated production on Gabes' high-volume seasonal e-commerce campaigns. Managed shoot logistics, location scouting, crew and talent coordination, prop and sample management, and on-set creative direction. Maintained brand consistency across a large volume of deliverables on tight timelines.",
-      deliverables: 'Shoot logistics, location scouting, talent direction, prop & sample coordination, set styling, creative direction, campaign delivery',
+      description: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
+      fullDescription: "Large-scale e-commerce campaign production for a major discount retailer — ongoing seasonal shoots across multiple campaigns. Shoot logistics, location scouting, prop and sample coordination, sample tracking and organization, and creative direction.",
+      deliverables: 'Shoot logistics, location scouting, prop & sample coordination, sample tracking, creative direction, campaign delivery',
       website: 'https://gabesstores.com',
       category: 'Creative Production',
       images: [
@@ -142,9 +142,9 @@ export const projectData = {
     {
       id: 'safran-everyday',
       title: 'Safran Everyday',
-      description: 'Campaign shoot production for a women\'s lifestyle brand — shoot logistics, talent coordination, and on-set production management.',
-      fullDescription: 'Managed campaign shoot production for Safran Everyday. Oversaw shoot logistics, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s warm, editorial aesthetic.',
-      deliverables: 'Shoot logistics, talent & crew coordination, on-set production management, campaign imagery delivery',
+      description: 'Campaign and social content production for a women-owned home goods brand. Shoot logistics, product styling, and on-set direction across multiple shoots.',
+      fullDescription: 'Campaign and social content production for a women-owned home goods brand. Shoot logistics, product styling, and on-set direction across multiple shoots.',
+      deliverables: 'Shoot logistics, product styling, on-set direction, campaign imagery delivery',
       website: 'https://safraneveryday.com',
       category: 'Creative Production',
       images: [
@@ -161,9 +161,9 @@ export const projectData = {
     {
       id: 'pcna',
       title: 'PCNA',
-      description: 'Campaign shoot production for a promotional products brand — product styling, shoot logistics, and on-set production management.',
-      fullDescription: 'Managed campaign shoot production for PCNA, a leading promotional products company. Oversaw product styling, shoot logistics, and on-set production to deliver catalog and marketing imagery across their product lines.',
-      deliverables: 'Product styling, shoot logistics, on-set production management, campaign imagery delivery',
+      description: 'High-volume e-commerce product photography for a promotional products brand — recurring shoots across a large product catalog. Product styling, shoot logistics, and product tracking and organization.',
+      fullDescription: 'High-volume e-commerce product photography for a promotional products brand — recurring shoots across a large product catalog. Product styling, shoot logistics, and product tracking and organization.',
+      deliverables: 'Product styling, shoot logistics, product tracking & organization, catalog imagery delivery',
       website: 'https://www.pcna.com',
       category: 'Creative Production',
       images: [
@@ -173,9 +173,9 @@ export const projectData = {
     {
       id: 'helvak-apparel',
       title: 'Helvak Apparel',
-      description: 'Campaign shoot production for a contemporary fashion brand — creative direction, talent coordination, and on-set production management.',
-      fullDescription: 'Managed campaign shoot production for Helvak Apparel. Oversaw creative direction, talent and crew coordination, and on-set production from pre-production through final delivery. Delivered campaign imagery aligned with the brand\'s modern, editorial aesthetic.',
-      deliverables: 'Creative direction, talent & crew coordination, shoot production, campaign imagery delivery',
+      description: 'Fashion shoot for an independent clothing designer — creative direction, talent coordination, and on-set styling for a designer\'s collection.',
+      fullDescription: 'Fashion shoot for an independent clothing designer — creative direction, talent coordination, and on-set styling for a designer\'s collection.',
+      deliverables: 'Creative direction, talent coordination, on-set styling, campaign imagery delivery',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d9f3588b7_Screenshot2025-03-01at95020PM.png',
@@ -188,9 +188,9 @@ export const projectData = {
     {
       id: 'nulastin',
       title: 'Nulastin',
-      description: 'Video production for a premium beauty brand — shoot logistics, crew coordination, and on-set production management.',
-      fullDescription: 'Managed video production for Nulastin, a premium beauty and skincare brand. Oversaw shoot logistics, crew coordination, and on-set production to deliver polished video content for the brand\'s marketing campaigns.',
-      deliverables: 'Video production, shoot logistics, crew coordination, on-set production management',
+      description: 'Video production for a premium beauty brand — shoot logistics, crew coordination, and on-set direction from setup through wrap.',
+      fullDescription: 'Video production for a premium beauty brand — shoot logistics, crew coordination, and on-set direction from setup through wrap.',
+      deliverables: 'Video production, shoot logistics, crew coordination, on-set direction',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/5d8c05ca1_Screenshot2026-06-20at124729PM.png',
@@ -202,9 +202,9 @@ export const projectData = {
     {
       id: 'faggod-apparel',
       title: 'FAGGOD Apparel',
-      description: 'Campaign shoot production for a bold streetwear brand — creative direction, talent coordination, and full production management.',
-      fullDescription: 'Managed campaign shoot production for FAGGOD Apparel. Oversaw creative direction, talent and crew coordination, location, and on-set production from pre-production through final delivery. Delivered campaign imagery that matched the brand\'s unapologetic visual identity.',
-      deliverables: 'Creative direction, talent & crew coordination, shoot production, campaign imagery delivery',
+      description: 'Campaign shoot for a bold streetwear brand — creative direction, talent coordination, studio and space sourcing, and hands-on photo production.',
+      fullDescription: 'Campaign shoot for a bold streetwear brand — creative direction, talent coordination, studio and space sourcing, and hands-on photo production.',
+      deliverables: 'Creative direction, talent coordination, studio & space sourcing, photo production',
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/c86c2bcfa_FG_1231_LG_RE.jpg',
