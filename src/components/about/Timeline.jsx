@@ -61,7 +61,7 @@ export default function Timeline() {
         {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
-            className="absolute w-3 h-3 rounded-full bg-foreground transition-all"
+            className="absolute w-3 h-3 rounded-full bg-accent transition-all"
             style={{ top: `${top}px`, left: '50%', transform: 'translate(-50%, -50%)' }}
           />
         ))}
