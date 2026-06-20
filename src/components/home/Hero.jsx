@@ -13,7 +13,7 @@ export default function Hero() {
         <img
           src={HERO_IMAGE}
           alt="Chelsea Alberti"
-          className="w-full h-full object-cover object-[30%_top] md:object-[40%_top] lg:object-[50%_top]"
+          className="w-full h-full object-cover object-[30%_top] md:object-[40%_top] lg:object-[50%_top] scale-x-[-1]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
       </div>
