@@ -175,25 +175,24 @@ export default function About() {
           </motion.div>
 
           <div className="relative">
-            {/* Vertical line on desktop */}
-            <div className="hidden lg:block absolute left-[calc(50%-1px)] top-0 bottom-0 w-px bg-border" />
+            {/* Vertical line */}
+            <div className="absolute left-4 lg:left-6 top-0 bottom-0 w-px bg-border" />
 
-            <div className="space-y-10 lg:space-y-0">
+            <div className="space-y-8 lg:space-y-10">
               {journey.map((step, i) => (
                 <motion.div
                   key={step.phase}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className={`lg:grid lg:grid-cols-2 lg:gap-12 lg:mb-10 ${i % 2 === 0 ? '' : 'lg:[direction:rtl]'}`}
+                  className="relative pl-12 lg:pl-16"
                 >
-                  <div className={`${i % 2 === 0 ? 'lg:text-right lg:pr-12' : 'lg:text-left lg:pl-12 lg:[direction:ltr]'}`}>
-                    <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{step.phase}</span>
-                    <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{step.label}</h3>
-                    <p className="text-sm font-body text-muted-foreground leading-relaxed">{step.description}</p>
-                  </div>
-                  <div className="hidden lg:block" />
+                  {/* Dot on the line */}
+                  <div className="absolute left-[11px] lg:left-[19px] top-1.5 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0" />
+                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{step.phase}</span>
+                  <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{step.label}</h3>
+                  <p className="text-sm font-body text-muted-foreground leading-relaxed">{step.description}</p>
                 </motion.div>
               ))}
             </div>
