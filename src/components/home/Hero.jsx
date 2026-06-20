@@ -58,7 +58,8 @@ export default function Hero() {
           Some people have the vision.
           <br />
           Some people execute the plan.
-          <span className="text-white font-semibold"> I do both.</span>
+          <br />
+          <span className="text-white font-semibold">I do both.</span>
         </motion.p>
 
         <motion.div
