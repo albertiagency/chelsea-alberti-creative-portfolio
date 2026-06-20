@@ -43,9 +43,9 @@ export const projectData = {
     {
       id: 'pitchd',
       title: 'Pitchd',
-      description: 'A launched app for creators and entrepreneurs to pitch ideas and get structured, actionable feedback. Concept, brand, UX, and full build — mine start to finish.',
-      fullDescription: 'Pitchd is a live, launched app I built independently for creators and entrepreneurs to pitch their ideas and receive structured, actionable feedback. I owned the entire process: concept development, brand identity, UX/UI design, and the full build. Currently live and accepting users.',
-      deliverables: 'App concept, UX/UI design, brand identity, full build, launch',
+      description: 'A speaking trainer app for iOS — built solo from concept to App Store. Brand identity, UX design, product strategy, and full build using AI-native tools.',
+      fullDescription: 'A speaking trainer app for iOS — built solo from concept to App Store. Brand identity, UX design, product strategy, and full build using AI-native tools.',
+      deliverables: 'App concept, product strategy, brand identity, UX/UI design, full build, App Store launch',
       category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
