@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, Linkedin, FileText, Download } from 'lucide-react';
+import { Mail, Phone, Linkedin } from 'lucide-react';
 import ContactForm from '@/components/contact/ContactForm';
 
 const contactInfo = [
@@ -23,8 +23,6 @@ const contactInfo = [
     href: 'https://www.linkedin.com/in/chelseaalberti/',
   },
 ];
-
-const RESUME_URL = 'https://media.base44.com/files/public/6a3416a0b2d81e218daa4cbb/4a7d894c0_ALBERTI_RESUME_FL-2.pdf';
 
 export default function Contact() {
   return (
@@ -77,24 +75,7 @@ export default function Contact() {
               </a>
             ))}
 
-            <a
-              href={RESUME_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 group"
-            >
-              <div className="w-10 h-10 rounded-sm bg-secondary flex items-center justify-center flex-shrink-0 group-hover:bg-accent/10 transition-colors">
-                <Download className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors" />
-              </div>
-              <div>
-                <p className="text-xs font-body font-semibold tracking-wide uppercase text-muted-foreground">
-                  Resume
-                </p>
-                <p className="text-base font-body text-foreground group-hover:text-accent transition-colors mt-0.5">
-                  Download PDF
-                </p>
-              </div>
-            </a>
+
           </motion.div>
 
           {/* Contact form */}
