@@ -178,6 +178,7 @@ export const projectData = {
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0ec076c2b_ECOM_1626-56-SINGLE1.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3836bb182_ECOM_7900-11-OUTSIDE9.jpg',
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f620f49da_1626-69_PROPPED-GROUPJavoStudiossconflictedcopy2019-04-06.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/a54cd62d3_SM-2925BK_A_CAR-PHONE-HOLDER-PROPPED.jpg',
       ],
     },
     {
