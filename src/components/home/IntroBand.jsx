@@ -41,7 +41,7 @@ export default function IntroBand() {
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
                 'Brand & Marketing',
-                'Creative Production & Events',
+                'Creative Production & Styling',
                 'Product Development',
                 'Apps & Digital Design',
               ].map((item) => (
