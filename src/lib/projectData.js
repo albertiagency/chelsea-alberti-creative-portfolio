@@ -46,6 +46,7 @@ export const projectData = {
       description: 'A speaking trainer app for iOS — built solo from concept to App Store. Brand identity, UX design, product strategy, and full build using AI-native tools.',
       fullDescription: 'A speaking trainer app for iOS — built solo from concept to App Store. Brand identity, UX design, product strategy, and full build using AI-native tools.',
       deliverables: 'App concept, product strategy, brand identity, UX/UI design, full build, App Store launch',
+      website: 'https://getpitchdapp.com',
       category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/8457e8420_Screenshot2026-06-18at13046PM.png',
