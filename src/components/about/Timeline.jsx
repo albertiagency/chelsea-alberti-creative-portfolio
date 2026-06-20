@@ -79,7 +79,11 @@ export default function Timeline() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className="pr-1/2 mr-auto w-1/2 pl-0 pr-16 text-right"
+            className={`${
+              i % 2 === 0
+                ? 'mr-auto w-1/2 pr-16 text-right'
+                : 'ml-auto w-1/2 pl-16 text-left'
+            }`}
           >
             {/* Content */}
             <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
