@@ -54,13 +54,10 @@ export default function Timeline() {
   return (
     <div className="relative">
       {/* Vertical center line */}
-      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
-      
-      {/* Mobile left line */}
-      <div className="lg:hidden absolute left-4 top-0 bottom-0 w-0.5 bg-border" />
+      <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
 
       {/* Numbered dots on the line */}
-      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 w-6 h-full pointer-events-none">
+      <div className="absolute left-1/2 -translate-x-1/2 top-0 w-6 h-full pointer-events-none">
         {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
@@ -73,7 +70,7 @@ export default function Timeline() {
       </div>
 
       {/* Cards container */}
-      <div className="space-y-12 lg:space-y-16">
+      <div className="space-y-12">
         {timeline.map((item, i) => (
           <motion.div
             key={item.phase}
@@ -82,11 +79,7 @@ export default function Timeline() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className={`relative ${
-              i % 2 === 0
-                ? 'lg:pr-1/2 lg:mr-auto lg:w-1/2 pl-12 lg:pl-0 lg:pr-16 lg:text-right'
-                : 'lg:pl-1/2 lg:ml-auto lg:w-1/2 pl-12 lg:pl-16 lg:text-left'
-            }`}
+            className="pr-1/2 mr-auto w-1/2 pl-0 pr-16 text-right"
           >
             {/* Content */}
             <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
