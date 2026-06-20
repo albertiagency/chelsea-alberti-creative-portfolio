@@ -28,7 +28,7 @@ export default function Timeline() {
   return (
     <div className="relative">
       {/* Vertical line - desktop center, mobile left */}
-      <div className="absolute lg:left-1/2 left-6 lg:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
+      <div className="absolute lg:left-1/2 left-1.5 lg:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-border" />
 
       {/* Timeline items */}
       <div className="space-y-12">
@@ -46,7 +46,7 @@ export default function Timeline() {
             }`}
           >
             {/* Dot - positioned relative to card on mobile, absolute on desktop */}
-            <div className="absolute lg:hidden -left-3 top-1.5 w-3 h-3 rounded-full bg-accent" />
+            <div className="absolute lg:hidden left-0 top-1.5 w-3 h-3 rounded-full bg-accent" />
             <div className="hidden lg:block absolute top-1.5 w-3 h-3 rounded-full bg-accent"
               style={{
                 left: i % 2 === 0 ? 'calc(100% + 12px)' : 'calc(-16px)',
