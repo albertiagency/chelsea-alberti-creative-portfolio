@@ -72,9 +72,9 @@ export const projectData = {
     {
       id: 'clarity-map',
       title: 'Clarity Map',
-      description: 'An app prototype I designed and built to help users organize goals and gain personal clarity through a structured, visual framework.',
-      fullDescription: 'Clarity Map is an app prototype I developed independently. I led the concept, brand identity, UX design, and prototype build. The app helps users organize goals and work through decisions with a structured, visual clarity framework. Currently in prototype phase.',
-      deliverables: 'App concept, brand identity, UX/UI design, prototype',
+      description: 'A personal development app built to help people find direction and live in alignment — conceptualized, branded, and built independently including UX architecture, content strategy, assessment framework, and AI coaching system design.',
+      fullDescription: 'A personal development app built to help people find direction and live in alignment — conceptualized, branded, and built independently including UX architecture, content strategy, assessment framework, and AI coaching system design.',
+      deliverables: 'App concept, brand identity, UX architecture, content strategy, assessment framework, AI coaching system design, prototype build',
       category: 'Apps & Web',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/d935447e1_Screenshot2026-06-18at13104PM.png',
