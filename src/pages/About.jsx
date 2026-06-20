@@ -233,7 +233,7 @@ export default function About() {
             className="pt-10 border-t border-border"
           >
             <p className="text-sm font-body font-semibold text-foreground mb-4">Open to roles including:</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-1.5 md:gap-1">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-1.5 md:gap-1">
               {roles.map((role) => (
                 <span key={role} className="px-2.5 md:px-2 py-1.5 text-xs font-body font-medium text-foreground bg-background border border-border rounded-sm whitespace-nowrap">
                   {role}
