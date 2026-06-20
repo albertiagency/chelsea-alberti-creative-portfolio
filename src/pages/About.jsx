@@ -186,7 +186,11 @@ export default function About() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="relative pl-12"
+                  className={`relative ${
+                    i % 2 === 0
+                      ? 'lg:pr-1/2 lg:mr-auto lg:w-1/2 lg:text-right pl-12 lg:pl-0 lg:pr-16'
+                      : 'lg:pl-1/2 lg:ml-auto lg:w-1/2 lg:text-left pl-12 lg:pl-16'
+                  }`}
                 >
                   {/* Dot on the line */}
                   <div className="absolute top-1 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 left-4 -translate-x-1/2 lg:left-1/2" />
