@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const timeline = [
@@ -25,6 +25,27 @@ const timeline = [
 ];
 
 export default function Timeline() {
+  const cardRefs = useRef([]);
+  const [dotPositions, setDotPositions] = useState([]);
+
+  useEffect(() => {
+    const calculatePositions = () => {
+      const positions = cardRefs.current.map((ref) => {
+        if (ref) {
+          const rect = ref.getBoundingClientRect();
+          const parentRect = ref.parentElement.getBoundingClientRect();
+          return rect.top - parentRect.top + 6; // 6px to center the 12px dot
+        }
+        return 0;
+      });
+      setDotPositions(positions);
+    };
+
+    calculatePositions();
+    window.addEventListener('resize', calculatePositions);
+    return () => window.removeEventListener('resize', calculatePositions);
+  }, []);
+
   return (
     <div className="relative">
       {/* Vertical center line */}
@@ -33,13 +54,13 @@ export default function Timeline() {
       {/* Mobile left line */}
       <div className="lg:hidden absolute left-4 top-0 bottom-0 w-px bg-border" />
 
-      {/* Dots container - separate from content */}
+      {/* Dots on the line - positioned by measuring cards */}
       <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 w-3 h-full pointer-events-none">
-        {timeline.map((_, i) => (
+        {dotPositions.map((top, i) => (
           <div
             key={`dot-${i}`}
-            className="absolute w-3 h-3 rounded-full bg-accent border-2 border-card -left-1.5"
-            style={{ top: `calc(1.5rem + ${i} * (var(--item-height, 300px)))` }}
+            className="absolute w-3 h-3 rounded-full bg-accent border-2 border-card -left-1.5 transition-all"
+            style={{ top: `${top}px` }}
           />
         ))}
       </div>
@@ -49,6 +70,7 @@ export default function Timeline() {
         {timeline.map((item, i) => (
           <motion.div
             key={item.phase}
+            ref={(el) => (cardRefs.current[i] = el)}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
