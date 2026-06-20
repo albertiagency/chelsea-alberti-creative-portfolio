@@ -41,11 +41,9 @@ export default function IntroBand() {
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
                 'Brand & Marketing',
-                'Creative Production & Events',
-                'Creative Direction & Styling',
+                'Creative Production & Styling',
+                'Product Concept & Development',
                 'Social & Content',
-                'Product Development',
-                'Apps & Digital Design',
               ].map((item) => (
                 <div key={item} className="flex items-start gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
