@@ -46,7 +46,7 @@ const valueProps = [
     ],
   },
   {
-  title: 'Creative Production & Execution',
+  title: 'Creative Production',
   items: [
     'Coordinating production and event space logistics, shoot preparation, and asset organization.',
     'Managing photographers, talent, stylists, and freelance crews during production.',
