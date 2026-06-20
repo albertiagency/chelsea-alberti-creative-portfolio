@@ -34,7 +34,7 @@ export default function Timeline() {
         if (ref) {
           const rect = ref.getBoundingClientRect();
           const parentRect = ref.parentElement.parentElement.getBoundingClientRect();
-          return rect.top - parentRect.top + 12; // Center of 24px dot
+          return rect.top - parentRect.top + 6; // Center of 12px dot
         }
         return 0;
       });
