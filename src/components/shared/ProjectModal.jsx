@@ -132,9 +132,14 @@ export default function ProjectModal({ project, open, onClose }) {
           {project.deliverables && (
             <p className="text-sm font-body text-muted-foreground mt-4 pt-4 border-t border-border">{project.deliverables}</p>
           )}
-          {project.studioCredit && (
-            <div className="mt-4 pt-4 border-t border-border">
-              <img src={project.studioCredit} alt="Javo Studios" className="h-6 object-contain" />
+          {(project.clientLogo || project.studioCredit) && (
+            <div className="mt-4 pt-4 border-t border-border flex items-center gap-4">
+              {project.clientLogo && (
+                <img src={project.clientLogo} alt="Client" className="h-7 object-contain" />
+              )}
+              {project.studioCredit && (
+                <img src={project.studioCredit} alt="Javo Studios" className="h-6 object-contain" />
+              )}
             </div>
           )}
           {project.website && (
