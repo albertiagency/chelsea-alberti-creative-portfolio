@@ -47,12 +47,8 @@ export default function Timeline() {
                 : 'lg:pl-1/2 lg:ml-auto lg:w-1/2 pl-12 lg:pl-16 lg:text-left'
             }`}
           >
-            {/* Dot */}
-            <div className={`absolute top-1 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 ${
-              i % 2 === 0
-                ? 'left-4 -translate-x-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-0'
-                : 'left-4 -translate-x-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:translate-y-0'
-            }`} />
+            {/* Dot on center line - desktop only */}
+            <div className="hidden lg:block absolute top-1 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 left-1/2 -translate-x-1/2" />
 
             {/* Content */}
             <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
