@@ -72,8 +72,8 @@ export const projectData = {
     {
       id: 'clarity-map',
       title: 'Clarity Map',
-      description: 'A personal development app prototype — concept, branding, UX architecture, assessment framework, and AI system design built independently.',
-      fullDescription: 'A personal development app prototype — concept, branding, UX architecture, assessment framework, and AI system design built independently.',
+      description: 'A personal development app prototype — concept, branding, UX architecture, assessment framework, and AI system design.',
+      fullDescription: 'A personal development app prototype — concept, branding, UX architecture, assessment framework, and AI system design.',
       deliverables: 'App concept, brand identity, UX architecture, content strategy, assessment framework, AI coaching system design, prototype build',
       category: 'Apps & Web',
       images: [
