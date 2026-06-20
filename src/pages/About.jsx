@@ -288,9 +288,9 @@ export default function About() {
             className="pt-10 border-t border-border"
           >
             <p className="text-sm font-body font-semibold text-foreground mb-4">Open to roles including:</p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-1.5 lg:gap-1">
               {roles.map((role) => (
-                <span key={role} className="px-4 py-2 text-xs font-body font-medium text-foreground bg-background border border-border rounded-sm">
+                <span key={role} className="px-3 py-1.5 text-xs font-body font-medium text-foreground bg-background border border-border rounded-sm whitespace-nowrap">
                   {role}
                 </span>
               ))}
