@@ -33,6 +33,18 @@ export default function Timeline() {
       {/* Mobile left line */}
       <div className="lg:hidden absolute left-4 top-0 bottom-0 w-px bg-border" />
 
+      {/* Dots container - separate from content */}
+      <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 w-3 h-full pointer-events-none">
+        {timeline.map((_, i) => (
+          <div
+            key={`dot-${i}`}
+            className="absolute w-3 h-3 rounded-full bg-accent border-2 border-card -left-1.5"
+            style={{ top: `calc(1.5rem + ${i} * (var(--item-height, 300px)))` }}
+          />
+        ))}
+      </div>
+
+      {/* Cards container */}
       <div className="space-y-12 lg:space-y-16">
         {timeline.map((item, i) => (
           <motion.div
@@ -47,9 +59,6 @@ export default function Timeline() {
                 : 'lg:pl-1/2 lg:ml-auto lg:w-1/2 pl-12 lg:pl-16 lg:text-left'
             }`}
           >
-            {/* Dot on center line - desktop only */}
-            <div className="hidden lg:block absolute top-1 w-3 h-3 rounded-full bg-accent border-2 border-card flex-shrink-0 left-1/2 -translate-x-1/2" />
-
             {/* Content */}
             <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
             <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
