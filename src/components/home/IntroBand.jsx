@@ -31,10 +31,10 @@ export default function IntroBand() {
             </h2>
             <div className="space-y-4 text-base lg:text-lg font-body text-muted-foreground leading-relaxed">
               <p>
-                I work across the full creative and marketing spectrum — brand strategy, campaign and event production, set and photo styling, spatial design, and social content. I'm the person who can hold the creative vision and the execution plan at the same time, lead the team and the moving parts, and bring an idea to life as a finished, physical thing.
+                I work across the full creative and marketing spectrum — brand strategy and development, campaign and event production, styling, product conceptualization, and social content. I'm the person who can hold the creative vision and the execution plan at once, leading the team and the idea from concept to finished.
               </p>
               <p>
-                My background blends a designer's eye with a producer's discipline: an Interior Design degree grounded in spatial composition and color, hands-on photo and set styling, and creative direction — expanded into creative operations, team leadership, and brand work. I design the vision and run the production that delivers it.
+                My background blends a creative's eye with an operator's discipline. It started with an Interior Design degree grounded in spatial composition and color, evolved through photography, styling, and creative direction, and grew into the brand and marketing work I do today. I shape the vision and lead the work that delivers it.
               </p>
             </div>
 
