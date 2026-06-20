@@ -77,8 +77,8 @@ export default function Timeline() {
                 className="text-left pl-4"
               >
                 <div className="flex items-center gap-3">
-                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">→ {item.year}</span>
                   <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">{item.phase}</span>
+                  <span className="text-xs font-body font-semibold tracking-[0.15em] uppercase text-accent">→ {item.year}</span>
                 </div>
                 <h3 className="font-display text-xl font-semibold text-foreground mt-1 mb-2">{item.label}</h3>
                 <p className="text-sm font-body text-muted-foreground leading-relaxed">{item.description}</p>
