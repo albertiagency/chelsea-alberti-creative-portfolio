@@ -173,6 +173,11 @@ export const projectData = {
       category: 'Creative Production',
       images: [
         'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/676e27d64_Screenshot2025-03-03at34721PM.png',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/1016e3f06_7198-75_PROPPED-GROUPJavoStudiossconflictedcopy2019-04-06.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/ccd70d779_8053-09BK_A_POWERBANK-WET.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/0ec076c2b_ECOM_1626-56-SINGLE1.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/3836bb182_ECOM_7900-11-OUTSIDE9.jpg',
+        'https://media.base44.com/images/public/6a3416a0b2d81e218daa4cbb/f620f49da_1626-69_PROPPED-GROUPJavoStudiossconflictedcopy2019-04-06.jpg',
       ],
     },
     {
